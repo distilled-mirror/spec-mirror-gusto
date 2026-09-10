@@ -1,0 +1,2269 @@
+{
+  "sources": [
+    "https://docs.gusto.com/app-integrations/llms.txt",
+    "https://docs.gusto.com/embedded-payroll/llms.txt"
+  ],
+  "count": 452,
+  "pages": [
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-department",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-department.md",
+      "file": "app-integrations/reference/delete-department.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-time_tracking-time_sheets-time_sheet_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-time_tracking-time_sheets-time_sheet_uuid.md",
+      "file": "app-integrations/reference/delete-time_tracking-time_sheets-time_sheet_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-v1-companies-company_id-earning_types-earning_type_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-v1-companies-company_id-earning_types-earning_type_uuid.md",
+      "file": "app-integrations/reference/delete-v1-companies-company_id-earning_types-earning_type_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-v1-company_benefits-company_benefit_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-v1-company_benefits-company_benefit_id.md",
+      "file": "app-integrations/reference/delete-v1-company_benefits-company_benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-v1-compensations-compensation_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-v1-compensations-compensation_id.md",
+      "file": "app-integrations/reference/delete-v1-compensations-compensation_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-v1-employee",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-v1-employee.md",
+      "file": "app-integrations/reference/delete-v1-employee.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-v1-employee_benefits-employee_benefit_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-v1-employee_benefits-employee_benefit_id.md",
+      "file": "app-integrations/reference/delete-v1-employee_benefits-employee_benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-v1-employees-employee_id-rehire",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-v1-employees-employee_id-rehire.md",
+      "file": "app-integrations/reference/delete-v1-employees-employee_id-rehire.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-v1-employees-employee_id-terminations",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-v1-employees-employee_id-terminations.md",
+      "file": "app-integrations/reference/delete-v1-employees-employee_id-terminations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-v1-home_addresses-home_address_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-v1-home_addresses-home_address_uuid.md",
+      "file": "app-integrations/reference/delete-v1-home_addresses-home_address_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-v1-recurring_reimbursements",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-v1-recurring_reimbursements.md",
+      "file": "app-integrations/reference/delete-v1-recurring_reimbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-v1-webhook-subscription-uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-v1-webhook-subscription-uuid.md",
+      "file": "app-integrations/reference/delete-v1-webhook-subscription-uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/delete-v1-work_addresses-work_address_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/delete-v1-work_addresses-work_address_uuid.md",
+      "file": "app-integrations/reference/delete-v1-work_addresses-work_address_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-companies-company_uuid-time_tracking-time_sheets",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-companies-company_uuid-time_tracking-time_sheets.md",
+      "file": "app-integrations/reference/get-companies-company_uuid-time_tracking-time_sheets.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-companies-departments",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-companies-departments.md",
+      "file": "app-integrations/reference/get-companies-departments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-company-notifications",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-company-notifications.md",
+      "file": "app-integrations/reference/get-company-notifications.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-department",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-department.md",
+      "file": "app-integrations/reference/get-department.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-employee-ytd-benefit-amounts-from-different-company",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-employee-ytd-benefit-amounts-from-different-company.md",
+      "file": "app-integrations/reference/get-employee-ytd-benefit-amounts-from-different-company.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-events",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-events.md",
+      "file": "app-integrations/reference/get-events.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-reports-request_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-reports-request_uuid.md",
+      "file": "app-integrations/reference/get-reports-request_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-time_tracking-payroll_syncs-payroll_sync_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-time_tracking-payroll_syncs-payroll_sync_uuid.md",
+      "file": "app-integrations/reference/get-time_tracking-payroll_syncs-payroll_sync_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-time_tracking-time_sheets-time_sheet_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-time_tracking-time_sheets-time_sheet_uuid.md",
+      "file": "app-integrations/reference/get-time_tracking-time_sheets-time_sheet_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-benefits",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-benefits.md",
+      "file": "app-integrations/reference/get-v1-benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-benefits-benefit_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-benefits-benefit_id.md",
+      "file": "app-integrations/reference/get-v1-benefits-benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-benefits-benefits_id-requirements",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-benefits-benefits_id-requirements.md",
+      "file": "app-integrations/reference/get-v1-benefits-benefits_id-requirements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-benefits-company_benefit_id-summary",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-benefits-company_benefit_id-summary.md",
+      "file": "app-integrations/reference/get-v1-benefits-company_benefit_id-summary.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies.md",
+      "file": "app-integrations/reference/get-v1-companies.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-admins",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-admins.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-admins.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-company_benefits",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-company_benefits.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-company_benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-contractor_payment-contractor-payment",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-contractor_payment-contractor-payment.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-contractor_payment-contractor-payment.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-contractor_payments",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-contractor_payments.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-contractor_payments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-custom_fields",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-custom_fields.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-custom_fields.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-earning_types",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-earning_types.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-earning_types.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-employees",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-employees.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-locations",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-locations.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-locations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-pay_periods",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-pay_periods.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-pay_periods.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-pay_schedules",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-pay_schedules.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-pay_schedules.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-pay_schedules-assignments",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-pay_schedules-assignments.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-pay_schedules-assignments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-pay_schedules-pay_schedule_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-pay_schedules-pay_schedule_id.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-pay_schedules-pay_schedule_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-payrolls",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-payrolls.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-payrolls.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-payrolls-payroll_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-payrolls-payroll_id.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-payrolls-payroll_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-time_off_requests",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-time_off_requests.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-time_off_requests.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-unprocessed_termination_pay_periods",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-unprocessed_termination_pay_periods.md",
+      "file": "app-integrations/reference/get-v1-companies-company_id-unprocessed_termination_pay_periods.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_uuid-contractors",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_uuid-contractors.md",
+      "file": "app-integrations/reference/get-v1-companies-company_uuid-contractors.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_uuid-time_off_policies",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_uuid-time_off_policies.md",
+      "file": "app-integrations/reference/get-v1-companies-company_uuid-time_off_policies.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-company_benefits-company_benefit_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-company_benefits-company_benefit_id.md",
+      "file": "app-integrations/reference/get-v1-company_benefits-company_benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-company_benefits-company_benefit_id-contribution_exclusions",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-company_benefits-company_benefit_id-contribution_exclusions.md",
+      "file": "app-integrations/reference/get-v1-company_benefits-company_benefit_id-contribution_exclusions.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-company_benefits-company_benefit_id-employee_benefits",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-company_benefits-company_benefit_id-employee_benefits.md",
+      "file": "app-integrations/reference/get-v1-company_benefits-company_benefit_id-employee_benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-compensations-compensation_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-compensations-compensation_id.md",
+      "file": "app-integrations/reference/get-v1-compensations-compensation_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-contractors-contractor_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-contractors-contractor_uuid.md",
+      "file": "app-integrations/reference/get-v1-contractors-contractor_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employee_benefits-employee_benefit_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employee_benefits-employee_benefit_id.md",
+      "file": "app-integrations/reference/get-v1-employee_benefits-employee_benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employees",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employees.md",
+      "file": "app-integrations/reference/get-v1-employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-custom_fields",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-custom_fields.md",
+      "file": "app-integrations/reference/get-v1-employees-employee_id-custom_fields.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-employee_benefits",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-employee_benefits.md",
+      "file": "app-integrations/reference/get-v1-employees-employee_id-employee_benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-employment_history",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-employment_history.md",
+      "file": "app-integrations/reference/get-v1-employees-employee_id-employment_history.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-garnishments",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-garnishments.md",
+      "file": "app-integrations/reference/get-v1-employees-employee_id-garnishments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-home_addresses",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-home_addresses.md",
+      "file": "app-integrations/reference/get-v1-employees-employee_id-home_addresses.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-recurring_reimbursements",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-recurring_reimbursements.md",
+      "file": "app-integrations/reference/get-v1-employees-employee_id-recurring_reimbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-rehire",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-rehire.md",
+      "file": "app-integrations/reference/get-v1-employees-employee_id-rehire.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-terminations",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-terminations.md",
+      "file": "app-integrations/reference/get-v1-employees-employee_id-terminations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-work_addresses",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_id-work_addresses.md",
+      "file": "app-integrations/reference/get-v1-employees-employee_id-work_addresses.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_uuid-section603_high_earner_statuses",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_uuid-section603_high_earner_statuses.md",
+      "file": "app-integrations/reference/get-v1-employees-employee_uuid-section603_high_earner_statuses.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_uuid-section603_high_earner_statuses-effective_year",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-employees-employee_uuid-section603_high_earner_statuses-effective_year.md",
+      "file": "app-integrations/reference/get-v1-employees-employee_uuid-section603_high_earner_statuses-effective_year.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-garnishments-child_support",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-garnishments-child_support.md",
+      "file": "app-integrations/reference/get-v1-garnishments-child_support.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-garnishments-garnishment_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-garnishments-garnishment_id.md",
+      "file": "app-integrations/reference/get-v1-garnishments-garnishment_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-home_addresses-home_address_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-home_addresses-home_address_uuid.md",
+      "file": "app-integrations/reference/get-v1-home_addresses-home_address_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-jobs-job_id-compensations",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-jobs-job_id-compensations.md",
+      "file": "app-integrations/reference/get-v1-jobs-job_id-compensations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-locations-location_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-locations-location_id.md",
+      "file": "app-integrations/reference/get-v1-locations-location_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-locations-location_uuid-minimum_wages",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-locations-location_uuid-minimum_wages.md",
+      "file": "app-integrations/reference/get-v1-locations-location_uuid-minimum_wages.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-recurring_reimbursements",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-recurring_reimbursements.md",
+      "file": "app-integrations/reference/get-v1-recurring_reimbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-salary_estimates-id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-salary_estimates-id.md",
+      "file": "app-integrations/reference/get-v1-salary_estimates-id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-salary_estimates-occupations",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-salary_estimates-occupations.md",
+      "file": "app-integrations/reference/get-v1-salary_estimates-occupations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-terminations-employee_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-terminations-employee_id.md",
+      "file": "app-integrations/reference/get-v1-terminations-employee_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-time_off_policies-time_off_policy_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-time_off_policies-time_off_policy_uuid.md",
+      "file": "app-integrations/reference/get-v1-time_off_policies-time_off_policy_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-token-info",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-token-info.md",
+      "file": "app-integrations/reference/get-v1-token-info.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-webhook-subscription-uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-webhook-subscription-uuid.md",
+      "file": "app-integrations/reference/get-v1-webhook-subscription-uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-webhook-subscription-verification-token-uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-webhook-subscription-verification-token-uuid.md",
+      "file": "app-integrations/reference/get-v1-webhook-subscription-verification-token-uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-webhook-subscriptions",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-webhook-subscriptions.md",
+      "file": "app-integrations/reference/get-v1-webhook-subscriptions.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-webhooks-health_check",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-webhooks-health_check.md",
+      "file": "app-integrations/reference/get-v1-webhooks-health_check.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-work_addresses-work_address_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-work_addresses-work_address_uuid.md",
+      "file": "app-integrations/reference/get-v1-work_addresses-work_address_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-version-employees-time_off_activities",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-version-employees-time_off_activities.md",
+      "file": "app-integrations/reference/get-version-employees-time_off_activities.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/oauth-access-token",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/oauth-access-token.md",
+      "file": "app-integrations/reference/oauth-access-token.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/patch-v1-employees-employee_uuid-section603_high_earner_statuses-effective_year",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/patch-v1-employees-employee_uuid-section603_high_earner_statuses-effective_year.md",
+      "file": "app-integrations/reference/patch-v1-employees-employee_uuid-section603_high_earner_statuses-effective_year.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-companies-company_uuid-time_tracking-payroll_syncs",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-companies-company_uuid-time_tracking-payroll_syncs.md",
+      "file": "app-integrations/reference/post-companies-company_uuid-time_tracking-payroll_syncs.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-companies-company_uuid-time_tracking-time_sheets",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-companies-company_uuid-time_tracking-time_sheets.md",
+      "file": "app-integrations/reference/post-companies-company_uuid-time_tracking-time_sheets.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-departments",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-departments.md",
+      "file": "app-integrations/reference/post-departments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-employee-ytd-benefit-amounts-from-different-company",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-employee-ytd-benefit-amounts-from-different-company.md",
+      "file": "app-integrations/reference/post-employee-ytd-benefit-amounts-from-different-company.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-payrolls-payroll_uuid-reports-general_ledger",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-payrolls-payroll_uuid-reports-general_ledger.md",
+      "file": "app-integrations/reference/post-payrolls-payroll_uuid-reports-general_ledger.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-companies-company_id-company_benefits",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-companies-company_id-company_benefits.md",
+      "file": "app-integrations/reference/post-v1-companies-company_id-company_benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-companies-company_id-earning_types",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-companies-company_id-earning_types.md",
+      "file": "app-integrations/reference/post-v1-companies-company_id-earning_types.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-companies-company_id-locations",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-companies-company_id-locations.md",
+      "file": "app-integrations/reference/post-v1-companies-company_id-locations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-companies-company_uuid-contractors",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-companies-company_uuid-contractors.md",
+      "file": "app-integrations/reference/post-v1-companies-company_uuid-contractors.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-compensations-compensation_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-compensations-compensation_id.md",
+      "file": "app-integrations/reference/post-v1-compensations-compensation_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-disconnect-app-integration",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-disconnect-app-integration.md",
+      "file": "app-integrations/reference/post-v1-disconnect-app-integration.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-employees",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-employees.md",
+      "file": "app-integrations/reference/post-v1-employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-employee_benefits",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-employee_benefits.md",
+      "file": "app-integrations/reference/post-v1-employees-employee_id-employee_benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-garnishments",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-garnishments.md",
+      "file": "app-integrations/reference/post-v1-employees-employee_id-garnishments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-home_addresses",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-home_addresses.md",
+      "file": "app-integrations/reference/post-v1-employees-employee_id-home_addresses.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-recurring_reimbursements",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-recurring_reimbursements.md",
+      "file": "app-integrations/reference/post-v1-employees-employee_id-recurring_reimbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-rehire",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-rehire.md",
+      "file": "app-integrations/reference/post-v1-employees-employee_id-rehire.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-salary_estimates",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-salary_estimates.md",
+      "file": "app-integrations/reference/post-v1-employees-employee_id-salary_estimates.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-terminations",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-terminations.md",
+      "file": "app-integrations/reference/post-v1-employees-employee_id-terminations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-work_addresses",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_id-work_addresses.md",
+      "file": "app-integrations/reference/post-v1-employees-employee_id-work_addresses.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_uuid-section603_high_earner_statuses",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-employees-employee_uuid-section603_high_earner_statuses.md",
+      "file": "app-integrations/reference/post-v1-employees-employee_uuid-section603_high_earner_statuses.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-payrolls-payroll_id-calculate_accruing_time_off_hours",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-payrolls-payroll_id-calculate_accruing_time_off_hours.md",
+      "file": "app-integrations/reference/post-v1-payrolls-payroll_id-calculate_accruing_time_off_hours.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-provision",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-provision.md",
+      "file": "app-integrations/reference/post-v1-provision.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-salary_estimates-uuid-accept",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-salary_estimates-uuid-accept.md",
+      "file": "app-integrations/reference/post-v1-salary_estimates-uuid-accept.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-v1-webhook-subscription",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-v1-webhook-subscription.md",
+      "file": "app-integrations/reference/post-v1-webhook-subscription.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-add-people-to-department",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-add-people-to-department.md",
+      "file": "app-integrations/reference/put-add-people-to-department.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-departments",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-departments.md",
+      "file": "app-integrations/reference/put-departments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-remove-people-from-department",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-remove-people-from-department.md",
+      "file": "app-integrations/reference/put-remove-people-from-department.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-time_tracking-time_sheets-time_sheet_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-time_tracking-time_sheets-time_sheet_uuid.md",
+      "file": "app-integrations/reference/put-time_tracking-time_sheets-time_sheet_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-companies",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-companies.md",
+      "file": "app-integrations/reference/put-v1-companies.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-companies-company_id-earning_types-earning_type_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-companies-company_id-earning_types-earning_type_uuid.md",
+      "file": "app-integrations/reference/put-v1-companies-company_id-earning_types-earning_type_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-companies-company_id-payrolls",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-companies-company_id-payrolls.md",
+      "file": "app-integrations/reference/put-v1-companies-company_id-payrolls.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-companies-company_id-payrolls-payroll_id-prepare",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-companies-company_id-payrolls-payroll_id-prepare.md",
+      "file": "app-integrations/reference/put-v1-companies-company_id-payrolls-payroll_id-prepare.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-company_benefits-company_benefit_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-company_benefits-company_benefit_id.md",
+      "file": "app-integrations/reference/put-v1-company_benefits-company_benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-company_benefits-company_benefit_id-contribution_exclusions",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-company_benefits-company_benefit_id-contribution_exclusions.md",
+      "file": "app-integrations/reference/put-v1-company_benefits-company_benefit_id-contribution_exclusions.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-company_benefits-company_benefit_id-employee_benefits",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-company_benefits-company_benefit_id-employee_benefits.md",
+      "file": "app-integrations/reference/put-v1-company_benefits-company_benefit_id-employee_benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-compensations-compensation_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-compensations-compensation_id.md",
+      "file": "app-integrations/reference/put-v1-compensations-compensation_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-contractors-contractor_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-contractors-contractor_uuid.md",
+      "file": "app-integrations/reference/put-v1-contractors-contractor_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-employee_benefits-employee_benefit_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-employee_benefits-employee_benefit_id.md",
+      "file": "app-integrations/reference/put-v1-employee_benefits-employee_benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-employees",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-employees.md",
+      "file": "app-integrations/reference/put-v1-employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-employees-employee_id-rehire",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-employees-employee_id-rehire.md",
+      "file": "app-integrations/reference/put-v1-employees-employee_id-rehire.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-garnishments-garnishment_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-garnishments-garnishment_id.md",
+      "file": "app-integrations/reference/put-v1-garnishments-garnishment_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-home_addresses-home_address_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-home_addresses-home_address_uuid.md",
+      "file": "app-integrations/reference/put-v1-home_addresses-home_address_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-locations-location_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-locations-location_id.md",
+      "file": "app-integrations/reference/put-v1-locations-location_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-recurring_reimbursements",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-recurring_reimbursements.md",
+      "file": "app-integrations/reference/put-v1-recurring_reimbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-salary_estimates-id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-salary_estimates-id.md",
+      "file": "app-integrations/reference/put-v1-salary_estimates-id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-terminations-employee_id",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-terminations-employee_id.md",
+      "file": "app-integrations/reference/put-v1-terminations-employee_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-time_off_policies-time_off_policy_uuid-add_employees",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-time_off_policies-time_off_policy_uuid-add_employees.md",
+      "file": "app-integrations/reference/put-v1-time_off_policies-time_off_policy_uuid-add_employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-verify-webhook-subscription-uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-verify-webhook-subscription-uuid.md",
+      "file": "app-integrations/reference/put-v1-verify-webhook-subscription-uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-webhook-subscription-uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-webhook-subscription-uuid.md",
+      "file": "app-integrations/reference/put-v1-webhook-subscription-uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/put-v1-work_addresses-work_address_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/put-v1-work_addresses-work_address_uuid.md",
+      "file": "app-integrations/reference/put-v1-work_addresses-work_address_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/revoke-access-token",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/revoke-access-token.md",
+      "file": "app-integrations/reference/revoke-access-token.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-department",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-department.md",
+      "file": "embedded-payroll/reference/delete-department.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-companies-company_id-bank-accounts-bank_account_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-companies-company_id-bank-accounts-bank_account_id.md",
+      "file": "embedded-payroll/reference/delete-v1-companies-company_id-bank-accounts-bank_account_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-companies-company_id-contractor_payment-contractor-payment",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-companies-company_id-contractor_payment-contractor-payment.md",
+      "file": "embedded-payroll/reference/delete-v1-companies-company_id-contractor_payment-contractor-payment.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-companies-company_id-earning_types-earning_type_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-companies-company_id-earning_types-earning_type_uuid.md",
+      "file": "embedded-payroll/reference/delete-v1-companies-company_id-earning_types-earning_type_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-companies-company_id-payrolls",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-companies-company_id-payrolls.md",
+      "file": "embedded-payroll/reference/delete-v1-companies-company_id-payrolls.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-companies-company_uuid-holiday_pay_policy",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-companies-company_uuid-holiday_pay_policy.md",
+      "file": "embedded-payroll/reference/delete-v1-companies-company_uuid-holiday_pay_policy.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-companies-company_uuid-signatories-signatory_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-companies-company_uuid-signatories-signatory_uuid.md",
+      "file": "embedded-payroll/reference/delete-v1-companies-company_uuid-signatories-signatory_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-company_benefits-company_benefit_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-company_benefits-company_benefit_id.md",
+      "file": "embedded-payroll/reference/delete-v1-company_benefits-company_benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-compensations-compensation_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-compensations-compensation_id.md",
+      "file": "embedded-payroll/reference/delete-v1-compensations-compensation_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-contractor_payment_groups-contractor_payment_group_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-contractor_payment_groups-contractor_payment_group_id.md",
+      "file": "embedded-payroll/reference/delete-v1-contractor_payment_groups-contractor_payment_group_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-contractors-contractor_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-contractors-contractor_uuid.md",
+      "file": "embedded-payroll/reference/delete-v1-contractors-contractor_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-contractors-contractor_uuid-member_portal_invitations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-contractors-contractor_uuid-member_portal_invitations.md",
+      "file": "embedded-payroll/reference/delete-v1-contractors-contractor_uuid-member_portal_invitations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-contractors-contractor_uuid-rehire",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-contractors-contractor_uuid-rehire.md",
+      "file": "embedded-payroll/reference/delete-v1-contractors-contractor_uuid-rehire.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-contractors-contractor_uuid-termination",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-contractors-contractor_uuid-termination.md",
+      "file": "embedded-payroll/reference/delete-v1-contractors-contractor_uuid-termination.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employee",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employee.md",
+      "file": "embedded-payroll/reference/delete-v1-employee.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employee_benefits-employee_benefit_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employee_benefits-employee_benefit_id.md",
+      "file": "embedded-payroll/reference/delete-v1-employee_benefits-employee_benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employees-employee_id-bank_accounts-bank_account_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employees-employee_id-bank_accounts-bank_account_id.md",
+      "file": "embedded-payroll/reference/delete-v1-employees-employee_id-bank_accounts-bank_account_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employees-employee_id-i9_authorization-documents-document_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employees-employee_id-i9_authorization-documents-document_id.md",
+      "file": "embedded-payroll/reference/delete-v1-employees-employee_id-i9_authorization-documents-document_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employees-employee_id-member_portal_invitations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employees-employee_id-member_portal_invitations.md",
+      "file": "embedded-payroll/reference/delete-v1-employees-employee_id-member_portal_invitations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employees-employee_id-rehire",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employees-employee_id-rehire.md",
+      "file": "embedded-payroll/reference/delete-v1-employees-employee_id-rehire.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employees-employee_id-terminations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-employees-employee_id-terminations.md",
+      "file": "embedded-payroll/reference/delete-v1-employees-employee_id-terminations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-external-payroll",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-external-payroll.md",
+      "file": "embedded-payroll/reference/delete-v1-external-payroll.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-home_addresses-home_address_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-home_addresses-home_address_uuid.md",
+      "file": "embedded-payroll/reference/delete-v1-home_addresses-home_address_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-jobs-job_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-jobs-job_id.md",
+      "file": "embedded-payroll/reference/delete-v1-jobs-job_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-recurring_reimbursements",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-recurring_reimbursements.md",
+      "file": "embedded-payroll/reference/delete-v1-recurring_reimbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-time_off-requests-time_off_request_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-time_off-requests-time_off_request_uuid.md",
+      "file": "embedded-payroll/reference/delete-v1-time_off-requests-time_off_request_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-webhook-subscription-uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-webhook-subscription-uuid.md",
+      "file": "embedded-payroll/reference/delete-v1-webhook-subscription-uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-work_addresses-work_address_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/delete-v1-work_addresses-work_address_uuid.md",
+      "file": "embedded-payroll/reference/delete-v1-work_addresses-work_address_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-ach-transactions",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-ach-transactions.md",
+      "file": "embedded-payroll/reference/get-ach-transactions.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-contractor_payments-preview",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-contractor_payments-preview.md",
+      "file": "embedded-payroll/reference/get-companies-company_uuid-contractor_payments-preview.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-paid_holidays",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-paid_holidays.md",
+      "file": "embedded-payroll/reference/get-companies-company_uuid-paid_holidays.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-report-templates-report_type",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-report-templates-report_type.md",
+      "file": "embedded-payroll/reference/get-companies-company_uuid-report-templates-report_type.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-suspensions",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-suspensions.md",
+      "file": "embedded-payroll/reference/get-companies-company_uuid-suspensions.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-wire_in_request_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-wire_in_request_uuid.md",
+      "file": "embedded-payroll/reference/get-companies-company_uuid-wire_in_request_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-companies-departments",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-companies-departments.md",
+      "file": "embedded-payroll/reference/get-companies-departments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-company-notifications",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-company-notifications.md",
+      "file": "embedded-payroll/reference/get-company-notifications.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-department",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-department.md",
+      "file": "embedded-payroll/reference/get-department.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-employee-ytd-benefit-amounts-from-different-company",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-employee-ytd-benefit-amounts-from-different-company.md",
+      "file": "embedded-payroll/reference/get-employee-ytd-benefit-amounts-from-different-company.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-events",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-events.md",
+      "file": "embedded-payroll/reference/get-events.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-information-requests",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-information-requests.md",
+      "file": "embedded-payroll/reference/get-information-requests.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-invoices-invoice-period",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-invoices-invoice-period.md",
+      "file": "embedded-payroll/reference/get-invoices-invoice-period.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-notifications-notification_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-notifications-notification_uuid.md",
+      "file": "embedded-payroll/reference/get-notifications-notification_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-recovery-cases",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-recovery-cases.md",
+      "file": "embedded-payroll/reference/get-recovery-cases.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-reports-request_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-reports-request_uuid.md",
+      "file": "embedded-payroll/reference/get-reports-request_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-reverse-wire-transactions",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-reverse-wire-transactions.md",
+      "file": "embedded-payroll/reference/get-reverse-wire-transactions.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-tax-payment",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-tax-payment.md",
+      "file": "embedded-payroll/reference/get-tax-payment.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-tax-payments",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-tax-payments.md",
+      "file": "embedded-payroll/reference/get-tax-payments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-benefits",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-benefits.md",
+      "file": "embedded-payroll/reference/get-v1-benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-benefits-benefit_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-benefits-benefit_id.md",
+      "file": "embedded-payroll/reference/get-v1-benefits-benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-benefits-benefits_id-requirements",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-benefits-benefits_id-requirements.md",
+      "file": "embedded-payroll/reference/get-v1-benefits-benefits_id-requirements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-benefits-company_benefit_id-summary",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-benefits-company_benefit_id-summary.md",
+      "file": "embedded-payroll/reference/get-v1-benefits-company_benefit_id-summary.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-bulk_reports-request_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-bulk_reports-request_uuid.md",
+      "file": "embedded-payroll/reference/get-v1-bulk_reports-request_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies.md",
+      "file": "embedded-payroll/reference/get-v1-companies.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-attachment",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-attachment.md",
+      "file": "embedded-payroll/reference/get-v1-companies-attachment.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-attachment-url",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-attachment-url.md",
+      "file": "embedded-payroll/reference/get-v1-companies-attachment-url.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-attachments",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-attachments.md",
+      "file": "embedded-payroll/reference/get-v1-companies-attachments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-admins",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-admins.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-admins.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-bank-accounts",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-bank-accounts.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-bank-accounts.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-company_benefits",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-company_benefits.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-company_benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-contractor_payment-contractor-payment",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-contractor_payment-contractor-payment.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-contractor_payment-contractor-payment.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-contractor_payment_groups",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-contractor_payment_groups.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-contractor_payment_groups.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-contractor_payments",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-contractor_payments.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-contractor_payments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-contractors-payment_details",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-contractors-payment_details.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-contractors-payment_details.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-custom_fields",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-custom_fields.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-custom_fields.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-earning_types",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-earning_types.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-earning_types.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-employees",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-employees.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-employees-payment_details",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-employees-payment_details.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-employees-payment_details.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-federal_tax_details",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-federal_tax_details.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-federal_tax_details.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-locations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-locations.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-locations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-pay_periods",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-pay_periods.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-pay_periods.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-pay_schedules",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-pay_schedules.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-pay_schedules.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-pay_schedules-assignments",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-pay_schedules-assignments.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-pay_schedules-assignments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-pay_schedules-pay_schedule_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-pay_schedules-pay_schedule_id.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-pay_schedules-pay_schedule_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-pay_schedules-preview",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-pay_schedules-preview.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-pay_schedules-preview.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-payroll_reversals",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-payroll_reversals.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-payroll_reversals.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-payrolls",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-payrolls.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-payrolls.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-payrolls-id-partner_disbursements",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-payrolls-id-partner_disbursements.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-payrolls-id-partner_disbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-payrolls-payroll_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-payrolls-payroll_id.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-payrolls-payroll_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-unprocessed_termination_pay_periods",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-unprocessed_termination_pay_periods.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_id-unprocessed_termination_pay_periods.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-contractors",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-contractors.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_uuid-contractors.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-holiday_pay_policy",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-holiday_pay_policy.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_uuid-holiday_pay_policy.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-signatories",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-signatories.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_uuid-signatories.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-tax_requirements",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-tax_requirements.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_uuid-tax_requirements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-tax_requirements-state",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-tax_requirements-state.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_uuid-tax_requirements-state.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-time_off-balances",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-time_off-balances.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_uuid-time_off-balances.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-time_off-requests",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-time_off-requests.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_uuid-time_off-requests.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-time_off_policies",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-time_off_policies.md",
+      "file": "embedded-payroll/reference/get-v1-companies-company_uuid-time_off_policies.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-payroll-blockers-company_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-payroll-blockers-company_uuid.md",
+      "file": "embedded-payroll/reference/get-v1-companies-payroll-blockers-company_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-external-payrolls",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-external-payrolls.md",
+      "file": "embedded-payroll/reference/get-v1-company-external-payrolls.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-finish-onboarding",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-finish-onboarding.md",
+      "file": "embedded-payroll/reference/get-v1-company-finish-onboarding.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-form",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-form.md",
+      "file": "embedded-payroll/reference/get-v1-company-form.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-form-pdf",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-form-pdf.md",
+      "file": "embedded-payroll/reference/get-v1-company-form-pdf.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-forms",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-forms.md",
+      "file": "embedded-payroll/reference/get-v1-company-forms.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-industry",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-industry.md",
+      "file": "embedded-payroll/reference/get-v1-company-industry.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-onboarding-status",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-onboarding-status.md",
+      "file": "embedded-payroll/reference/get-v1-company-onboarding-status.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-payment-configs",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company-payment-configs.md",
+      "file": "embedded-payroll/reference/get-v1-company-payment-configs.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company_benefits-company_benefit_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company_benefits-company_benefit_id.md",
+      "file": "embedded-payroll/reference/get-v1-company_benefits-company_benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company_benefits-company_benefit_id-contribution_exclusions",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company_benefits-company_benefit_id-contribution_exclusions.md",
+      "file": "embedded-payroll/reference/get-v1-company_benefits-company_benefit_id-contribution_exclusions.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company_benefits-company_benefit_id-employee_benefits",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-company_benefits-company_benefit_id-employee_benefits.md",
+      "file": "embedded-payroll/reference/get-v1-company_benefits-company_benefit_id-employee_benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-compensations-compensation_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-compensations-compensation_id.md",
+      "file": "embedded-payroll/reference/get-v1-compensations-compensation_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor-document",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor-document.md",
+      "file": "embedded-payroll/reference/get-v1-contractor-document.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor-document-pdf",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor-document-pdf.md",
+      "file": "embedded-payroll/reference/get-v1-contractor-document-pdf.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor-documents",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor-documents.md",
+      "file": "embedded-payroll/reference/get-v1-contractor-documents.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor-form",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor-form.md",
+      "file": "embedded-payroll/reference/get-v1-contractor-form.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor-form-pdf",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor-form-pdf.md",
+      "file": "embedded-payroll/reference/get-v1-contractor-form-pdf.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor-forms",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor-forms.md",
+      "file": "embedded-payroll/reference/get-v1-contractor-forms.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor_payment_groups-contractor_payment_group_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor_payment_groups-contractor_payment_group_id.md",
+      "file": "embedded-payroll/reference/get-v1-contractor_payment_groups-contractor_payment_group_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor_payment_groups-id-partner_disbursements",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor_payment_groups-id-partner_disbursements.md",
+      "file": "embedded-payroll/reference/get-v1-contractor_payment_groups-id-partner_disbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor_payments-contractor_payment_id-pdf",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor_payments-contractor_payment_id-pdf.md",
+      "file": "embedded-payroll/reference/get-v1-contractor_payments-contractor_payment_id-pdf.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor_payments-contractor_payment_uuid-fund",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor_payments-contractor_payment_uuid-fund.md",
+      "file": "embedded-payroll/reference/get-v1-contractor_payments-contractor_payment_uuid-fund.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor_payments-contractor_payment_uuid-receipt",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractor_payments-contractor_payment_uuid-receipt.md",
+      "file": "embedded-payroll/reference/get-v1-contractor_payments-contractor_payment_uuid-receipt.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid.md",
+      "file": "embedded-payroll/reference/get-v1-contractors-contractor_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-address",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-address.md",
+      "file": "embedded-payroll/reference/get-v1-contractors-contractor_uuid-address.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-bank_accounts",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-bank_accounts.md",
+      "file": "embedded-payroll/reference/get-v1-contractors-contractor_uuid-bank_accounts.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-member_portal_invitations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-member_portal_invitations.md",
+      "file": "embedded-payroll/reference/get-v1-contractors-contractor_uuid-member_portal_invitations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-onboarding_status",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-onboarding_status.md",
+      "file": "embedded-payroll/reference/get-v1-contractors-contractor_uuid-onboarding_status.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-payment_method",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-payment_method.md",
+      "file": "embedded-payroll/reference/get-v1-contractors-contractor_uuid-payment_method.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-payments",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-payments.md",
+      "file": "embedded-payroll/reference/get-v1-contractors-contractor_uuid-payments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employee-form",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employee-form.md",
+      "file": "embedded-payroll/reference/get-v1-employee-form.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employee-form-pdf",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employee-form-pdf.md",
+      "file": "embedded-payroll/reference/get-v1-employee-form-pdf.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employee-forms",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employee-forms.md",
+      "file": "embedded-payroll/reference/get-v1-employee-forms.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employee_benefits-employee_benefit_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employee_benefits-employee_benefit_id.md",
+      "file": "embedded-payroll/reference/get-v1-employee_benefits-employee_benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees.md",
+      "file": "embedded-payroll/reference/get-v1-employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-bank_accounts",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-bank_accounts.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-bank_accounts.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-custom_fields",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-custom_fields.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-custom_fields.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-employee_benefits",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-employee_benefits.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-employee_benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-employment_history",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-employment_history.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-employment_history.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-federal_taxes",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-federal_taxes.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-federal_taxes.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-garnishments",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-garnishments.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-garnishments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-home_addresses",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-home_addresses.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-home_addresses.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-i9_authorization",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-i9_authorization.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-i9_authorization.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-i9_authorization-document_options",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-i9_authorization-document_options.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-i9_authorization-document_options.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-i9_authorization-documents",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-i9_authorization-documents.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-i9_authorization-documents.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-jobs",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-jobs.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-jobs.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-member_portal_invitations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-member_portal_invitations.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-member_portal_invitations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-onboarding_status",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-onboarding_status.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-onboarding_status.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-payment_method",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-payment_method.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-payment_method.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-recurring_reimbursements",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-recurring_reimbursements.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-recurring_reimbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-rehire",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-rehire.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-rehire.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-state_taxes",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-state_taxes.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-state_taxes.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-terminations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-terminations.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-terminations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-work_addresses",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-work_addresses.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_id-work_addresses.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_uuid-pay_stubs",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_uuid-pay_stubs.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_uuid-pay_stubs.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_uuid-section603_high_earner_statuses-1",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_uuid-section603_high_earner_statuses-1.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_uuid-section603_high_earner_statuses-1.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_uuid-section603_high_earner_statuses-effective_year-1",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_uuid-section603_high_earner_statuses-effective_year-1.md",
+      "file": "embedded-payroll/reference/get-v1-employees-employee_uuid-section603_high_earner_statuses-effective_year-1.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-external-payroll",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-external-payroll.md",
+      "file": "embedded-payroll/reference/get-v1-external-payroll.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-external-payroll-calculate-taxes",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-external-payroll-calculate-taxes.md",
+      "file": "embedded-payroll/reference/get-v1-external-payroll-calculate-taxes.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-garnishments-child_support",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-garnishments-child_support.md",
+      "file": "embedded-payroll/reference/get-v1-garnishments-child_support.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-garnishments-garnishment_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-garnishments-garnishment_id.md",
+      "file": "embedded-payroll/reference/get-v1-garnishments-garnishment_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-generated_documents-document_type-request_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-generated_documents-document_type-request_uuid.md",
+      "file": "embedded-payroll/reference/get-v1-generated_documents-document_type-request_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-home_addresses-home_address_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-home_addresses-home_address_uuid.md",
+      "file": "embedded-payroll/reference/get-v1-home_addresses-home_address_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-jobs-job_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-jobs-job_id.md",
+      "file": "embedded-payroll/reference/get-v1-jobs-job_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-jobs-job_id-compensations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-jobs-job_id-compensations.md",
+      "file": "embedded-payroll/reference/get-v1-jobs-job_id-compensations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-locations-location_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-locations-location_id.md",
+      "file": "embedded-payroll/reference/get-v1-locations-location_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-locations-location_uuid-minimum_wages",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-locations-location_uuid-minimum_wages.md",
+      "file": "embedded-payroll/reference/get-v1-locations-location_uuid-minimum_wages.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-partner-managed-companies-company-uuid-migration_readiness",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-partner-managed-companies-company-uuid-migration_readiness.md",
+      "file": "embedded-payroll/reference/get-v1-partner-managed-companies-company-uuid-migration_readiness.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-partner-managed-companies-company-uuid-terms_of_service",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-partner-managed-companies-company-uuid-terms_of_service.md",
+      "file": "embedded-payroll/reference/get-v1-partner-managed-companies-company-uuid-terms_of_service.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-payment-receipts-payrolls-payroll_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-payment-receipts-payrolls-payroll_uuid.md",
+      "file": "embedded-payroll/reference/get-v1-payment-receipts-payrolls-payroll_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-payroll_batches-payroll_batch_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-payroll_batches-payroll_batch_uuid.md",
+      "file": "embedded-payroll/reference/get-v1-payroll_batches-payroll_batch_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-payroll_digests-payroll_digest_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-payroll_digests-payroll_digest_uuid.md",
+      "file": "embedded-payroll/reference/get-v1-payroll_digests-payroll_digest_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-payrolls-payroll_uuid-employees-employee_uuid-pay_stub",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-payrolls-payroll_uuid-employees-employee_uuid-pay_stub.md",
+      "file": "embedded-payroll/reference/get-v1-payrolls-payroll_uuid-employees-employee_uuid-pay_stub.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-people_batches-people_batch_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-people_batches-people_batch_uuid.md",
+      "file": "embedded-payroll/reference/get-v1-people_batches-people_batch_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-recurring_reimbursements",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-recurring_reimbursements.md",
+      "file": "embedded-payroll/reference/get-v1-recurring_reimbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-salary_estimates-id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-salary_estimates-id.md",
+      "file": "embedded-payroll/reference/get-v1-salary_estimates-id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-salary_estimates-occupations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-salary_estimates-occupations.md",
+      "file": "embedded-payroll/reference/get-v1-salary_estimates-occupations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-tax-liabilities",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-tax-liabilities.md",
+      "file": "embedded-payroll/reference/get-v1-tax-liabilities.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-terminations-employee_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-terminations-employee_id.md",
+      "file": "embedded-payroll/reference/get-v1-terminations-employee_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-time_off-requests-time_off_request_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-time_off-requests-time_off_request_uuid.md",
+      "file": "embedded-payroll/reference/get-v1-time_off-requests-time_off_request_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-time_off_policies-time_off_policy_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-time_off_policies-time_off_policy_uuid.md",
+      "file": "embedded-payroll/reference/get-v1-time_off_policies-time_off_policy_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-token-info",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-token-info.md",
+      "file": "embedded-payroll/reference/get-v1-token-info.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-webhook-subscription-uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-webhook-subscription-uuid.md",
+      "file": "embedded-payroll/reference/get-v1-webhook-subscription-uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-webhook-subscription-verification-token-uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-webhook-subscription-verification-token-uuid.md",
+      "file": "embedded-payroll/reference/get-v1-webhook-subscription-verification-token-uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-webhook-subscriptions",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-webhook-subscriptions.md",
+      "file": "embedded-payroll/reference/get-v1-webhook-subscriptions.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-webhooks-health_check",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-webhooks-health_check.md",
+      "file": "embedded-payroll/reference/get-v1-webhooks-health_check.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-v1-work_addresses-work_address_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-v1-work_addresses-work_address_uuid.md",
+      "file": "embedded-payroll/reference/get-v1-work_addresses-work_address_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-version-employees-time_off_activities",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-version-employees-time_off_activities.md",
+      "file": "embedded-payroll/reference/get-version-employees-time_off_activities.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-wire_in_requests-wire_in_request_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-wire_in_requests-wire_in_request_uuid.md",
+      "file": "embedded-payroll/reference/get-wire_in_requests-wire_in_request_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/oauth-access-token",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/oauth-access-token.md",
+      "file": "embedded-payroll/reference/oauth-access-token.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/patch-v1-companies-company_id-payrolls-id-partner_disbursements",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/patch-v1-companies-company_id-payrolls-id-partner_disbursements.md",
+      "file": "embedded-payroll/reference/patch-v1-companies-company_id-payrolls-id-partner_disbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/patch-v1-contractor_payment_groups-id-partner_disbursements",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/patch-v1-contractor_payment_groups-id-partner_disbursements.md",
+      "file": "embedded-payroll/reference/patch-v1-contractor_payment_groups-id-partner_disbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/patch-v1-employees-employee_uuid-section603_high_earner_statuses-effective_year-1",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/patch-v1-employees-employee_uuid-section603_high_earner_statuses-effective_year-1.md",
+      "file": "embedded-payroll/reference/patch-v1-employees-employee_uuid-section603_high_earner_statuses-effective_year-1.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-companies-company_uuid-reports",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-companies-company_uuid-reports.md",
+      "file": "embedded-payroll/reference/post-companies-company_uuid-reports.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-companies-company_uuid-suspensions",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-companies-company_uuid-suspensions.md",
+      "file": "embedded-payroll/reference/post-companies-company_uuid-suspensions.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-companies-payroll-skip-company_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-companies-payroll-skip-company_uuid.md",
+      "file": "embedded-payroll/reference/post-companies-payroll-skip-company_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-departments",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-departments.md",
+      "file": "embedded-payroll/reference/post-departments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-employee-ytd-benefit-amounts-from-different-company",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-employee-ytd-benefit-amounts-from-different-company.md",
+      "file": "embedded-payroll/reference/post-employee-ytd-benefit-amounts-from-different-company.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-partner-managed-companies-company_uuid-accept_terms_of_service",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-partner-managed-companies-company_uuid-accept_terms_of_service.md",
+      "file": "embedded-payroll/reference/post-partner-managed-companies-company_uuid-accept_terms_of_service.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-partner-managed-companies-company_uuid-retrieve_terms_of_service",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-partner-managed-companies-company_uuid-retrieve_terms_of_service.md",
+      "file": "embedded-payroll/reference/post-partner-managed-companies-company_uuid-retrieve_terms_of_service.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-payrolls-gross-up-payroll_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-payrolls-gross-up-payroll_uuid.md",
+      "file": "embedded-payroll/reference/post-payrolls-gross-up-payroll_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-payrolls-payroll_uuid-reports-general_ledger",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-payrolls-payroll_uuid-reports-general_ledger.md",
+      "file": "embedded-payroll/reference/post-payrolls-payroll_uuid-reports-general_ledger.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-bulk_reports",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-bulk_reports.md",
+      "file": "embedded-payroll/reference/post-v1-bulk_reports.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-attachment",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-attachment.md",
+      "file": "embedded-payroll/reference/post-v1-companies-attachment.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-admins",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-admins.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-admins.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-bank-accounts",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-bank-accounts.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-bank-accounts.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-company_benefits",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-company_benefits.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-company_benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-contractor_payment_groups",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-contractor_payment_groups.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-contractor_payment_groups.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-contractor_payment_groups-preview",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-contractor_payment_groups-preview.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-contractor_payment_groups-preview.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-contractor_payments",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-contractor_payments.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-contractor_payments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-earning_types",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-earning_types.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-earning_types.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-locations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-locations.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-locations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-pay_schedules",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-pay_schedules.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-pay_schedules.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-pay_schedules-assign",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-pay_schedules-assign.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-pay_schedules-assign.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-pay_schedules-assignment_preview",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-pay_schedules-assignment_preview.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-pay_schedules-assignment_preview.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-payrolls",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-payrolls.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-payrolls.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-people_batches",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-people_batches.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-people_batches.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-reports-employees_annual_fica_wage",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-reports-employees_annual_fica_wage.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_id-reports-employees_annual_fica_wage.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-contractors",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-contractors.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_uuid-contractors.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-holiday_pay_policy",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-holiday_pay_policy.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_uuid-holiday_pay_policy.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-signatories-invite",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-signatories-invite.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_uuid-signatories-invite.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-time_off-admin_approved_requests",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-time_off-admin_approved_requests.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_uuid-time_off-admin_approved_requests.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-time_off-requests",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-time_off-requests.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_uuid-time_off-requests.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-time_off-requests-preview",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-time_off-requests-preview.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_uuid-time_off-requests-preview.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-time_off_policies",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-time_off_policies.md",
+      "file": "embedded-payroll/reference/post-v1-companies-company_uuid-time_off_policies.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-company-flows",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-company-flows.md",
+      "file": "embedded-payroll/reference/post-v1-company-flows.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-company-signatories",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-company-signatories.md",
+      "file": "embedded-payroll/reference/post-v1-company-signatories.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-compensations-compensation_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-compensations-compensation_id.md",
+      "file": "embedded-payroll/reference/post-v1-compensations-compensation_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-contractors-contractor_uuid-bank_accounts",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-contractors-contractor_uuid-bank_accounts.md",
+      "file": "embedded-payroll/reference/post-v1-contractors-contractor_uuid-bank_accounts.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-contractors-contractor_uuid-member_portal_invitations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-contractors-contractor_uuid-member_portal_invitations.md",
+      "file": "embedded-payroll/reference/post-v1-contractors-contractor_uuid-member_portal_invitations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-contractors-contractor_uuid-rehire",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-contractors-contractor_uuid-rehire.md",
+      "file": "embedded-payroll/reference/post-v1-contractors-contractor_uuid-rehire.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-contractors-contractor_uuid-termination",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-contractors-contractor_uuid-termination.md",
+      "file": "embedded-payroll/reference/post-v1-contractors-contractor_uuid-termination.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees.md",
+      "file": "embedded-payroll/reference/post-v1-employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-bank_accounts",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-bank_accounts.md",
+      "file": "embedded-payroll/reference/post-v1-employees-employee_id-bank_accounts.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-employee_benefits",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-employee_benefits.md",
+      "file": "embedded-payroll/reference/post-v1-employees-employee_id-employee_benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-garnishments",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-garnishments.md",
+      "file": "embedded-payroll/reference/post-v1-employees-employee_id-garnishments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-home_addresses",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-home_addresses.md",
+      "file": "embedded-payroll/reference/post-v1-employees-employee_id-home_addresses.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-jobs",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-jobs.md",
+      "file": "embedded-payroll/reference/post-v1-employees-employee_id-jobs.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-member_portal_invitations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-member_portal_invitations.md",
+      "file": "embedded-payroll/reference/post-v1-employees-employee_id-member_portal_invitations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-recurring_reimbursements",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-recurring_reimbursements.md",
+      "file": "embedded-payroll/reference/post-v1-employees-employee_id-recurring_reimbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-rehire",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-rehire.md",
+      "file": "embedded-payroll/reference/post-v1-employees-employee_id-rehire.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-salary_estimates",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-salary_estimates.md",
+      "file": "embedded-payroll/reference/post-v1-employees-employee_id-salary_estimates.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-terminations",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-terminations.md",
+      "file": "embedded-payroll/reference/post-v1-employees-employee_id-terminations.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-work_addresses",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-work_addresses.md",
+      "file": "embedded-payroll/reference/post-v1-employees-employee_id-work_addresses.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_uuid-section603_high_earner_statuses-1",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_uuid-section603_high_earner_statuses-1.md",
+      "file": "embedded-payroll/reference/post-v1-employees-employee_uuid-section603_high_earner_statuses-1.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-external-payroll",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-external-payroll.md",
+      "file": "embedded-payroll/reference/post-v1-external-payroll.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-historical_employees",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-historical_employees.md",
+      "file": "embedded-payroll/reference/post-v1-historical_employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-partner-managed-companies",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-partner-managed-companies.md",
+      "file": "embedded-payroll/reference/post-v1-partner-managed-companies.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-partner-managed-companies-company-uuid-terms_of_service",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-partner-managed-companies-company-uuid-terms_of_service.md",
+      "file": "embedded-payroll/reference/post-v1-partner-managed-companies-company-uuid-terms_of_service.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-payroll_batches",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-payroll_batches.md",
+      "file": "embedded-payroll/reference/post-v1-payroll_batches.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-payroll_digests",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-payroll_digests.md",
+      "file": "embedded-payroll/reference/post-v1-payroll_digests.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-payrolls-payroll_id-calculate_accruing_time_off_hours",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-payrolls-payroll_id-calculate_accruing_time_off_hours.md",
+      "file": "embedded-payroll/reference/post-v1-payrolls-payroll_id-calculate_accruing_time_off_hours.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-payrolls-payroll_uuid-generated_documents-printable_payroll_checks",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-payrolls-payroll_uuid-generated_documents-printable_payroll_checks.md",
+      "file": "embedded-payroll/reference/post-v1-payrolls-payroll_uuid-generated_documents-printable_payroll_checks.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-plaid-processor_token",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-plaid-processor_token.md",
+      "file": "embedded-payroll/reference/post-v1-plaid-processor_token.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-salary_estimates-uuid-accept",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-salary_estimates-uuid-accept.md",
+      "file": "embedded-payroll/reference/post-v1-salary_estimates-uuid-accept.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-sandbox-generate_1099",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-sandbox-generate_1099.md",
+      "file": "embedded-payroll/reference/post-v1-sandbox-generate_1099.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-sandbox-generate_w2",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-sandbox-generate_w2.md",
+      "file": "embedded-payroll/reference/post-v1-sandbox-generate_w2.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-webhook-subscription",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-webhook-subscription.md",
+      "file": "embedded-payroll/reference/post-v1-webhook-subscription.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-add-people-to-department",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-add-people-to-department.md",
+      "file": "embedded-payroll/reference/put-add-people-to-department.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-api-v1-companies-company_id-payrolls-payroll_id-cancel",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-api-v1-companies-company_id-payrolls-payroll_id-cancel.md",
+      "file": "embedded-payroll/reference/put-api-v1-companies-company_id-payrolls-payroll_id-cancel.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-departments",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-departments.md",
+      "file": "embedded-payroll/reference/put-departments.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-remove-people-from-department",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-remove-people-from-department.md",
+      "file": "embedded-payroll/reference/put-remove-people-from-department.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies.md",
+      "file": "embedded-payroll/reference/put-v1-companies.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-bank-accounts-verify",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-bank-accounts-verify.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_id-bank-accounts-verify.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-earning_types-earning_type_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-earning_types-earning_type_uuid.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_id-earning_types-earning_type_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-federal_tax_details",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-federal_tax_details.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_id-federal_tax_details.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-pay_schedules-pay_schedule_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-pay_schedules-pay_schedule_id.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_id-pay_schedules-pay_schedule_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-payrolls",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-payrolls.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_id-payrolls.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-payrolls-payroll_id-calculate",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-payrolls-payroll_id-calculate.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_id-payrolls-payroll_id-calculate.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-payrolls-payroll_id-prepare",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-payrolls-payroll_id-prepare.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_id-payrolls-payroll_id-prepare.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-payrolls-payroll_id-submit",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_id-payrolls-payroll_id-submit.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_id-payrolls-payroll_id-submit.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-holiday_pay_policy",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-holiday_pay_policy.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_uuid-holiday_pay_policy.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-holiday_pay_policy-add",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-holiday_pay_policy-add.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_uuid-holiday_pay_policy-add.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-holiday_pay_policy-remove",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-holiday_pay_policy-remove.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_uuid-holiday_pay_policy-remove.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-signatories-signatory_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-signatories-signatory_uuid.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_uuid-signatories-signatory_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-tax_requirements-state",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-tax_requirements-state.md",
+      "file": "embedded-payroll/reference/put-v1-companies-company_uuid-tax_requirements-state.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-company-form-sign",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-company-form-sign.md",
+      "file": "embedded-payroll/reference/put-v1-company-form-sign.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-company-industry",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-company-industry.md",
+      "file": "embedded-payroll/reference/put-v1-company-industry.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-company-payment-configs",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-company-payment-configs.md",
+      "file": "embedded-payroll/reference/put-v1-company-payment-configs.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-company_benefits-company_benefit_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-company_benefits-company_benefit_id.md",
+      "file": "embedded-payroll/reference/put-v1-company_benefits-company_benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-company_benefits-company_benefit_id-contribution_exclusions",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-company_benefits-company_benefit_id-contribution_exclusions.md",
+      "file": "embedded-payroll/reference/put-v1-company_benefits-company_benefit_id-contribution_exclusions.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-company_benefits-company_benefit_id-employee_benefits",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-company_benefits-company_benefit_id-employee_benefits.md",
+      "file": "embedded-payroll/reference/put-v1-company_benefits-company_benefit_id-employee_benefits.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-compensations-compensation_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-compensations-compensation_id.md",
+      "file": "embedded-payroll/reference/put-v1-compensations-compensation_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-contractor-document-sign",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-contractor-document-sign.md",
+      "file": "embedded-payroll/reference/put-v1-contractor-document-sign.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-contractor_payment_groups-contractor_payment_group_id-fund",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-contractor_payment_groups-contractor_payment_group_id-fund.md",
+      "file": "embedded-payroll/reference/put-v1-contractor_payment_groups-contractor_payment_group_id-fund.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-contractors-contractor_id-payment_method",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-contractors-contractor_id-payment_method.md",
+      "file": "embedded-payroll/reference/put-v1-contractors-contractor_id-payment_method.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-contractors-contractor_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-contractors-contractor_uuid.md",
+      "file": "embedded-payroll/reference/put-v1-contractors-contractor_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-contractors-contractor_uuid-address",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-contractors-contractor_uuid-address.md",
+      "file": "embedded-payroll/reference/put-v1-contractors-contractor_uuid-address.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-contractors-contractor_uuid-onboarding_status",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-contractors-contractor_uuid-onboarding_status.md",
+      "file": "embedded-payroll/reference/put-v1-contractors-contractor_uuid-onboarding_status.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employee-form-sign",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employee-form-sign.md",
+      "file": "embedded-payroll/reference/put-v1-employee-form-sign.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employee_benefits-employee_benefit_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employee_benefits-employee_benefit_id.md",
+      "file": "embedded-payroll/reference/put-v1-employee_benefits-employee_benefit_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees.md",
+      "file": "embedded-payroll/reference/put-v1-employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-bank_accounts",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-bank_accounts.md",
+      "file": "embedded-payroll/reference/put-v1-employees-employee_id-bank_accounts.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-federal_taxes",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-federal_taxes.md",
+      "file": "embedded-payroll/reference/put-v1-employees-employee_id-federal_taxes.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-i9_authorization",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-i9_authorization.md",
+      "file": "embedded-payroll/reference/put-v1-employees-employee_id-i9_authorization.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-i9_authorization-documents",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-i9_authorization-documents.md",
+      "file": "embedded-payroll/reference/put-v1-employees-employee_id-i9_authorization-documents.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-i9_authorization-employer_sign",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-i9_authorization-employer_sign.md",
+      "file": "embedded-payroll/reference/put-v1-employees-employee_id-i9_authorization-employer_sign.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-onboarding_documents_config",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-onboarding_documents_config.md",
+      "file": "embedded-payroll/reference/put-v1-employees-employee_id-onboarding_documents_config.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-onboarding_status",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-onboarding_status.md",
+      "file": "embedded-payroll/reference/put-v1-employees-employee_id-onboarding_status.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-payment_method",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-payment_method.md",
+      "file": "embedded-payroll/reference/put-v1-employees-employee_id-payment_method.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-rehire",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-rehire.md",
+      "file": "embedded-payroll/reference/put-v1-employees-employee_id-rehire.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-state_taxes",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-state_taxes.md",
+      "file": "embedded-payroll/reference/put-v1-employees-employee_id-state_taxes.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-external-payroll",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-external-payroll.md",
+      "file": "embedded-payroll/reference/put-v1-external-payroll.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-garnishments-garnishment_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-garnishments-garnishment_id.md",
+      "file": "embedded-payroll/reference/put-v1-garnishments-garnishment_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-historical_employees",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-historical_employees.md",
+      "file": "embedded-payroll/reference/put-v1-historical_employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-home_addresses-home_address_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-home_addresses-home_address_uuid.md",
+      "file": "embedded-payroll/reference/put-v1-home_addresses-home_address_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-jobs-job_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-jobs-job_id.md",
+      "file": "embedded-payroll/reference/put-v1-jobs-job_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-locations-location_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-locations-location_id.md",
+      "file": "embedded-payroll/reference/put-v1-locations-location_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-partner-managed-companies-company-uuid-disassociate",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-partner-managed-companies-company-uuid-disassociate.md",
+      "file": "embedded-payroll/reference/put-v1-partner-managed-companies-company-uuid-disassociate.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-partner-managed-companies-company-uuid-migrate",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-partner-managed-companies-company-uuid-migrate.md",
+      "file": "embedded-payroll/reference/put-v1-partner-managed-companies-company-uuid-migrate.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-partner-managed-companies-company-uuid-terms_of_service",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-partner-managed-companies-company-uuid-terms_of_service.md",
+      "file": "embedded-payroll/reference/put-v1-partner-managed-companies-company-uuid-terms_of_service.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-recurring_reimbursements",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-recurring_reimbursements.md",
+      "file": "embedded-payroll/reference/put-v1-recurring_reimbursements.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-salary_estimates-id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-salary_estimates-id.md",
+      "file": "embedded-payroll/reference/put-v1-salary_estimates-id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-tax-liabilities",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-tax-liabilities.md",
+      "file": "embedded-payroll/reference/put-v1-tax-liabilities.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-tax-liabilities-finish",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-tax-liabilities-finish.md",
+      "file": "embedded-payroll/reference/put-v1-tax-liabilities-finish.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-terminations-employee_id",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-terminations-employee_id.md",
+      "file": "embedded-payroll/reference/put-v1-terminations-employee_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off-requests-time_off_request_uuid-approve",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off-requests-time_off_request_uuid-approve.md",
+      "file": "embedded-payroll/reference/put-v1-time_off-requests-time_off_request_uuid-approve.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off-requests-time_off_request_uuid-decline",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off-requests-time_off_request_uuid-decline.md",
+      "file": "embedded-payroll/reference/put-v1-time_off-requests-time_off_request_uuid-decline.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid.md",
+      "file": "embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-add_employees",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-add_employees.md",
+      "file": "embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-add_employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-balance",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-balance.md",
+      "file": "embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-balance.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-deactivate",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-deactivate.md",
+      "file": "embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-deactivate.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-remove_employees",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-remove_employees.md",
+      "file": "embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-remove_employees.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-verify-webhook-subscription-uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-verify-webhook-subscription-uuid.md",
+      "file": "embedded-payroll/reference/put-v1-verify-webhook-subscription-uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-webhook-subscription-uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-webhook-subscription-uuid.md",
+      "file": "embedded-payroll/reference/put-v1-webhook-subscription-uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-v1-work_addresses-work_address_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-v1-work_addresses-work_address_uuid.md",
+      "file": "embedded-payroll/reference/put-v1-work_addresses-work_address_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/put-wire_in_requests-wire_in_request_uuid",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/put-wire_in_requests-wire_in_request_uuid.md",
+      "file": "embedded-payroll/reference/put-wire_in_requests-wire_in_request_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/redebit-recovery-case",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/redebit-recovery-case.md",
+      "file": "embedded-payroll/reference/redebit-recovery-case.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/whats-new-in-v2026-06-15",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/whats-new-in-v2026-06-15.md",
+      "file": "embedded-payroll/reference/whats-new-in-v2026-06-15.md"
+    }
+  ]
+}

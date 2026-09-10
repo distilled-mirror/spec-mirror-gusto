@@ -1,0 +1,251 @@
+---
+updatedAt: 2026-07-02T23:17:02.000Z
+---
+
+Fetch the complete documentation index at: https://docs.gusto.com/embedded-payroll/llms.txt. Use this file to discover all available pages before exploring further. Append .md to any documentation page URL to get its markdown version.
+
+# Get a contractor member portal invitation
+
+Returns the current status of a contractor's member portal invitation (`pending`, `sent`, `verified`, `complete`, or `cancelled`) along with an `expired` flag indicating whether the invitation can still be acted on by the contractor.
+
+scope: `member_portal_invitation:read`
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.1.0",
+  "tags": [
+    {
+      "name": "Member Portal Invitations"
+    }
+  ],
+  "info": {
+    "title": "Gusto API",
+    "version": "2026-06-15",
+    "termsOfService": "https://gusto.com/about/terms/developer-terms-of-service",
+    "description": "Welcome to Gusto's Embedded Payroll API documentation!",
+    "contact": {
+      "name": "Developer Relations",
+      "email": "developer@gusto.com"
+    },
+    "x-release-status": "stable"
+  },
+  "servers": [
+    {
+      "url": "https://api.gusto-demo.com",
+      "description": "Demo",
+      "x-speakeasy-server-id": "demo"
+    }
+  ],
+  "security": [
+    {
+      "CompanyAccessAuth": []
+    }
+  ],
+  "components": {
+    "schemas": {
+      "Not-Found-Error-Object": {
+        "description": "Not Found \n  \nThe requested resource does not exist. Make sure the provided ID/UUID is valid.",
+        "type": "object",
+        "required": [
+          "errors"
+        ],
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "error_key",
+                "category"
+              ],
+              "properties": {
+                "error_key": {
+                  "type": "string",
+                  "description": "Specifies where the error occurs. Typically this key identifies the attribute/parameter related to the error."
+                },
+                "category": {
+                  "type": "string",
+                  "description": "Specifies the type of error. The category provides error groupings and can be used to build custom error handling in your integration."
+                },
+                "message": {
+                  "type": "string",
+                  "description": "Provides details about the error - generally this message can be surfaced to an end user."
+                }
+              }
+            }
+          }
+        },
+        "x-examples": {
+          "not_found": {
+            "errors": [
+              {
+                "error_key": "request",
+                "category": "not_found",
+                "message": "The requested resource was not found."
+              }
+            ]
+          },
+          "deprecated_accept_terms_of_service": {
+            "errors": [
+              {
+                "error_key": "request",
+                "category": "deprecated_endpoint",
+                "message": "The requested endpoint is no longer supported in the requested API version. Use POST /v1/partner_managed_companies/:company_uuid/terms_of_service instead"
+              }
+            ]
+          },
+          "deprecated_retrieve_terms_of_service": {
+            "errors": [
+              {
+                "error_key": "request",
+                "category": "deprecated_endpoint",
+                "message": "The requested endpoint is no longer supported in the requested API version. Use PUT /v1/partner_managed_companies/:company_uuid/terms_of_service instead"
+              }
+            ]
+          }
+        }
+      },
+      "Member-Portal-Invitation": {
+        "type": "object",
+        "description": "The status of a member portal invitation for an employee or contractor. Returned by `GET /v1/employees/{employee_id}/member_portal_invitations` and `GET /v1/contractors/{contractor_uuid}/member_portal_invitations`.\n",
+        "required": [
+          "status",
+          "expired"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "sent",
+              "verified",
+              "complete",
+              "cancelled"
+            ],
+            "description": "Current status of the member portal invitation.\n- `pending`: The invitation record has been created but the invitation email has not yet been delivered.\n- `sent`: The invitation email has been delivered to the member.\n- `verified`: The member has been verified by the member portal partner.\n- `complete`: The member has fully completed their member portal registration.\n- `cancelled`: The invitation has been cancelled, either via `DELETE` on this endpoint or because it was superseded.\n",
+            "example": "sent"
+          },
+          "expired": {
+            "type": "boolean",
+            "description": "Whether the invitation can no longer be acted on by the member. Returns `true` when the invitation token has expired or when the invitation has been `cancelled`. To reissue an expired invitation, call `POST` on this endpoint again — a new token will be generated and will override the prior one.\n",
+            "example": false
+          }
+        },
+        "x-examples": {
+          "sent_invitation": {
+            "status": "sent",
+            "expired": false
+          },
+          "complete_invitation": {
+            "status": "complete",
+            "expired": false
+          },
+          "cancelled_invitation": {
+            "status": "cancelled",
+            "expired": true
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "CompanyAccessAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Company-level authentication"
+      }
+    }
+  },
+  "paths": {
+    "/v1/contractors/{contractor_uuid}/member_portal_invitations": {
+      "get": {
+        "summary": "Get a contractor member portal invitation",
+        "parameters": [
+          {
+            "name": "X-Gusto-API-Version",
+            "in": "header",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "2026-06-15"
+              ],
+              "default": "2026-06-15"
+            },
+            "description": "Determines the date-based API version associated with your API call. If none is provided, your application's [minimum API version](https://docs.gusto.com/embedded-payroll/docs/api-versioning#minimum-api-version) is used."
+          },
+          {
+            "name": "contractor_uuid",
+            "in": "path",
+            "description": "The UUID of the contractor",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "x-gusto-rswag": true,
+        "operationId": "get-v1-contractors-contractor_uuid-member_portal_invitations",
+        "security": [
+          {
+            "CompanyAccessAuth": []
+          }
+        ],
+        "description": "Returns the current status of a contractor's member portal invitation (`pending`, `sent`, `verified`, `complete`, or `cancelled`) along with an `expired` flag indicating whether the invitation can still be acted on by the contractor.\n\nscope: `member_portal_invitation:read`",
+        "tags": [
+          "Member Portal Invitations"
+        ],
+        "x-gusto-integration-type": [
+          "embedded"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "sent_invitation": {
+                    "value": {
+                      "$ref": "#/components/schemas/Member-Portal-Invitation/x-examples/sent_invitation"
+                    }
+                  },
+                  "complete_invitation": {
+                    "value": {
+                      "$ref": "#/components/schemas/Member-Portal-Invitation/x-examples/complete_invitation"
+                    }
+                  },
+                  "cancelled_invitation": {
+                    "value": {
+                      "$ref": "#/components/schemas/Member-Portal-Invitation/x-examples/cancelled_invitation"
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Member-Portal-Invitation"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found\n\nThe requested resource does not exist. Make sure the provided UUID is valid.\n",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "not_found": {
+                    "value": {
+                      "$ref": "#/components/schemas/Not-Found-Error-Object/x-examples/not_found"
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Not-Found-Error-Object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
