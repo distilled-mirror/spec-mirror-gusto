@@ -453,6 +453,7 @@ Append .md to any documentation page URL to get its markdown version.
 - [Security at Gusto](https://docs.gusto.com/embedded-payroll/page/security-at-gusto.md)
 
 ## Changelog
+- [Added contractor lifecycle webhooks for future-dated transitions](https://docs.gusto.com/embedded-payroll/changelog/added-contractor-lifecycle-webhooks-for-future-dated-transitions.md)
 - [Filter tax payments by payroll](https://docs.gusto.com/embedded-payroll/changelog/filter-tax-payments-by-payroll.md)
 - [09-01-26 Partner notification changes](https://docs.gusto.com/embedded-payroll/changelog/09-01-26-partner-notification-changes.md)
 - [Added Tax Payments endpoints](https://docs.gusto.com/embedded-payroll/changelog/added-tax-payments-endpoints.md)
@@ -462,4 +463,3 @@ Append .md to any documentation page URL to get its markdown version.
 - [Added payroll_blocking and default_value_applied to tax requirements](https://docs.gusto.com/embedded-payroll/changelog/added-payroll_blocking-and-default_value_applied-to-tax-requirements.md)
 - [07-01-26 Partner notification changes](https://docs.gusto.com/embedded-payroll/changelog/07-01-26-partner-notification-changes.md)
 - [v2024-04-01 Sunset](https://docs.gusto.com/embedded-payroll/changelog/v2024-04-01-sunset.md)
-- [v2026-02-01 Deprecation](https://docs.gusto.com/embedded-payroll/changelog/v2026-02-01-deprecation.md)
