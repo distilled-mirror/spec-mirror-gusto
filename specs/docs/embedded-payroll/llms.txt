@@ -123,7 +123,6 @@ Append .md to any documentation page URL to get its markdown version.
 - [Retrieve a General Ledger report](https://docs.gusto.com/embedded-payroll/docs/retrieve-a-general-ledger-report.md)
 - [ACH Codes and Transaction Types](https://docs.gusto.com/embedded-payroll/docs/ach-codes-and-transaction-types.md)
 - [Health Insurance (SimplyInsured)](https://docs.gusto.com/embedded-payroll/docs/health-insurance-simplyinsured.md)
-- [On-Demand Pay (Clair)](https://docs.gusto.com/embedded-payroll/docs/on-demand-pay-clair.md)
 - [Workers' Compensation (NEXT)](https://docs.gusto.com/embedded-payroll/docs/workers-compensation-next.md)
 - [401(k) (Guideline)](https://docs.gusto.com/embedded-payroll/docs/401k-guideline.md)
 - [Accounting integrations (Xero and QuickBooks Online)](https://docs.gusto.com/embedded-payroll/docs/testing-accounting-integrations-xero-and-qbo.md)
