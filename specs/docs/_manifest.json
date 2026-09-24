@@ -3,7 +3,7 @@
     "https://docs.gusto.com/app-integrations/llms.txt",
     "https://docs.gusto.com/embedded-payroll/llms.txt"
   ],
-  "count": 452,
+  "count": 453,
   "pages": [
     {
       "page": "https://docs.gusto.com/app-integrations/reference/delete-department",
@@ -1864,6 +1864,11 @@
       "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-partner-managed-companies-company-uuid-terms_of_service",
       "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-partner-managed-companies-company-uuid-terms_of_service.md",
       "file": "embedded-payroll/reference/post-v1-partner-managed-companies-company-uuid-terms_of_service.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-partner-managed-companies-company-uuid-terms_of_service…",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-partner-managed-companies-company-uuid-terms_of_service….md",
+      "file": "embedded-payroll/reference/post-v1-partner-managed-companies-company-uuid-terms_of_service….md"
     },
     {
       "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-payroll_batches",
