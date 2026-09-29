@@ -2,51 +2,53 @@
 
 > Documentation for App Integrations
 
-Append .md to any documentation page URL to get its markdown version.
-
-## Guides
+## Guides: Basics
 - [Introduction](https://docs.gusto.com/app-integrations/docs/introduction.md)
-- [App Integrations vs. Gusto Embedded](https://docs.gusto.com/app-integrations/docs/app-integrations-vs-embedded-payroll.md)
-- [Security Review](https://docs.gusto.com/app-integrations/docs/security-review.md)
+  - [App Integrations vs. Gusto Embedded](https://docs.gusto.com/app-integrations/docs/app-integrations-vs-embedded-payroll.md)
+  - [Security Review](https://docs.gusto.com/app-integrations/docs/security-review.md)
 - [Authentication](https://docs.gusto.com/app-integrations/docs/authentication.md)
-- [System Access Tokens](https://docs.gusto.com/app-integrations/docs/system-access-tokens.md)
-- [OAuth2](https://docs.gusto.com/app-integrations/docs/oauth2.md)
-- [Strict Access](https://docs.gusto.com/app-integrations/docs/strict-access.md)
+  - [System Access Tokens](https://docs.gusto.com/app-integrations/docs/system-access-tokens.md)
+  - [OAuth2](https://docs.gusto.com/app-integrations/docs/oauth2.md)
+  - [Strict Access](https://docs.gusto.com/app-integrations/docs/strict-access.md)
 - [Pagination](https://docs.gusto.com/app-integrations/docs/pagination.md)
 - [API Versioning](https://docs.gusto.com/app-integrations/docs/api-versioning.md)
-- [Getting Setup](https://docs.gusto.com/app-integrations/docs/getting-setup.md)
-- [Version Upgrade Guide](https://docs.gusto.com/app-integrations/docs/version-upgrade-guide.md)
+  - [Getting Setup](https://docs.gusto.com/app-integrations/docs/getting-setup.md)
+  - [Version Upgrade Guide](https://docs.gusto.com/app-integrations/docs/version-upgrade-guide.md)
 - [Scopes](https://docs.gusto.com/app-integrations/docs/scopes.md)
 - [Rate Limits](https://docs.gusto.com/app-integrations/docs/rate-limits.md)
 - [Webhooks](https://docs.gusto.com/app-integrations/docs/webhooks.md): Efficiently integrate Gusto's real-time event data into your application
-- [Best Practices](https://docs.gusto.com/app-integrations/docs/best-practices.md)
-- [Webhook Events](https://docs.gusto.com/app-integrations/docs/webhook-events.md)
-- [Bank Account Events](https://docs.gusto.com/app-integrations/docs/bank-account-events.md)
-- [Company Events](https://docs.gusto.com/app-integrations/docs/company-events.md)
-- [Company Benefit Events](https://docs.gusto.com/app-integrations/docs/company-benefit-events.md)
-- [Contractor Events](https://docs.gusto.com/app-integrations/docs/contractor-events.md)
-- [Contractor Payment Events](https://docs.gusto.com/app-integrations/docs/contractor-payment-events.md)
-- [Employee Events](https://docs.gusto.com/app-integrations/docs/employee-events.md)
-- [Employee Home Address Events](https://docs.gusto.com/app-integrations/docs/employee-home-address-events.md)
-- [Employee Work Address Events](https://docs.gusto.com/app-integrations/docs/employee-work-address-events.md)
-- [Employee Benefit Events](https://docs.gusto.com/app-integrations/docs/employee-benefit-events.md)
-- [Employee Job Compensation Events](https://docs.gusto.com/app-integrations/docs/employee-job-compensation-events.md)
-- [External Payroll Events](https://docs.gusto.com/app-integrations/docs/external-payroll-events.md)
-- [Fast Ach Config Events](https://docs.gusto.com/app-integrations/docs/fast-ach-config-events.md)
-- [Form Events](https://docs.gusto.com/app-integrations/docs/form-events.md)
-- [Location Events](https://docs.gusto.com/app-integrations/docs/location-events.md)
-- [Payroll Events](https://docs.gusto.com/app-integrations/docs/payroll-events.md)
-- [Pay Schedule Events](https://docs.gusto.com/app-integrations/docs/pay-schedule-events.md)
-- [Signatory Events](https://docs.gusto.com/app-integrations/docs/signatory-events.md)
+  - [Best Practices](https://docs.gusto.com/app-integrations/docs/best-practices.md)
+  - [Webhook Events](https://docs.gusto.com/app-integrations/docs/webhook-events.md)
+  - [Bank Account Events](https://docs.gusto.com/app-integrations/docs/bank-account-events.md)
+  - [Company Events](https://docs.gusto.com/app-integrations/docs/company-events.md)
+  - [Company Benefit Events](https://docs.gusto.com/app-integrations/docs/company-benefit-events.md)
+  - [Contractor Events](https://docs.gusto.com/app-integrations/docs/contractor-events.md)
+  - [Contractor Payment Events](https://docs.gusto.com/app-integrations/docs/contractor-payment-events.md)
+  - [Employee Events](https://docs.gusto.com/app-integrations/docs/employee-events.md)
+  - [Employee Home Address Events](https://docs.gusto.com/app-integrations/docs/employee-home-address-events.md)
+  - [Employee Work Address Events](https://docs.gusto.com/app-integrations/docs/employee-work-address-events.md)
+  - [Employee Benefit Events](https://docs.gusto.com/app-integrations/docs/employee-benefit-events.md)
+  - [Employee Job Compensation Events](https://docs.gusto.com/app-integrations/docs/employee-job-compensation-events.md)
+  - [External Payroll Events](https://docs.gusto.com/app-integrations/docs/external-payroll-events.md)
+  - [Fast Ach Config Events](https://docs.gusto.com/app-integrations/docs/fast-ach-config-events.md)
+  - [Form Events](https://docs.gusto.com/app-integrations/docs/form-events.md)
+  - [Location Events](https://docs.gusto.com/app-integrations/docs/location-events.md)
+  - [Payroll Events](https://docs.gusto.com/app-integrations/docs/payroll-events.md)
+  - [Pay Schedule Events](https://docs.gusto.com/app-integrations/docs/pay-schedule-events.md)
+  - [Signatory Events](https://docs.gusto.com/app-integrations/docs/signatory-events.md)
 - [Error Categories](https://docs.gusto.com/app-integrations/docs/error-categories.md)
+
+## Guides: Guides
 - [Gusto Experience Principles](https://docs.gusto.com/app-integrations/docs/gusto-experience-principles.md)
 - [Syncing Employees](https://docs.gusto.com/app-integrations/docs/syncing-employees.md)
 - [Syncing Time Tracking Data](https://docs.gusto.com/app-integrations/docs/syncing-time-tracking-data.md)
 - [Jobs and Compensations](https://docs.gusto.com/app-integrations/docs/jobs-and-compensations.md)
 - [Payrolls](https://docs.gusto.com/app-integrations/docs/updating-payrolls.md)
+
+## Guides: Contact
 - [Contact Gusto](https://docs.gusto.com/app-integrations/docs/contact-gusto-1.md)
 
-## API Reference
+## API Reference: Gusto API
 - [Get info about the current access token](https://docs.gusto.com/app-integrations/reference/get-v1-token-info.md): Returns scope and resource information associated with the current access token. Use this endpoint to verify the following for the current access token: * Resource (company, employee, contractor, or…
 - [Revoke access token](https://docs.gusto.com/app-integrations/reference/revoke-access-token.md): Revokes the given access token. After revoking, this token can no longer be used to make requests nor can it be refreshed.
 - [Disconnect an app integration](https://docs.gusto.com/app-integrations/reference/post-v1-disconnect-app-integration.md): Disconnects the given company from the App Integration associated with the current system access token. If multiple users from that company are authorized with the App Integration, then their tokens…
@@ -57,6 +59,8 @@ Append .md to any documentation page URL to get its markdown version.
 - [Get all time off policies for a company](https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_uuid-time_off_policies.md): Get all time off policies for a company  scope: `time_off_policies:read`
 - [Add employees to a time off policy](https://docs.gusto.com/app-integrations/reference/put-v1-time_off_policies-time_off_policy_uuid-add_employees.md): Add employees to a time off policy. Employees are required to have at least one job to be added to a time off policy. Accepts starting balances for non-unlimited policies  scope:…
 - [Get notifications for company](https://docs.gusto.com/app-integrations/reference/get-company-notifications.md): Returns all notifications relevant for the given company.  scope: `notifications:read`
+
+## API Reference: Companies
 - [Create a company](https://docs.gusto.com/app-integrations/reference/post-v1-provision.md): ### Overview The company provisioning API provides a way to create a Gusto company as part of your integration. When you successfully call the API, the API does the following: * Creates a new company…
 - [Get a company](https://docs.gusto.com/app-integrations/reference/get-v1-companies.md): Get a company.  The employees:read scope is required to return home_address and non-work locations. The company_admin:read scope is required to return primary_payroll_admin. The signatories:read…
 - [Update a company](https://docs.gusto.com/app-integrations/reference/put-v1-companies.md): Update a company.  scope: `companies:write`
@@ -108,6 +112,8 @@ Append .md to any documentation page URL to get its markdown version.
 - [Delete a department](https://docs.gusto.com/app-integrations/reference/delete-department.md): Delete a department. You cannot delete a department until all employees and contractors have been removed.  scope: `departments:write`
 - [Add people to a department](https://docs.gusto.com/app-integrations/reference/put-add-people-to-department.md): Add employees and contractors to a department  scope: `departments:write`
 - [Remove people from a department](https://docs.gusto.com/app-integrations/reference/put-remove-people-from-department.md): Remove employees and contractors from a department  scope: `departments:write`
+
+## API Reference: W2 Employees
 - [Get employees of a company](https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-employees.md): Get all of the employees, onboarding, active and terminated, for a given company.  Note: Compensation data (pay rate, payment unit, and related fields) represents sensitive employee pay information.…
 - [Create an employee](https://docs.gusto.com/app-integrations/reference/post-v1-employees.md): Create an employee.  scope: `employees:manage`
 - [Get an employee](https://docs.gusto.com/app-integrations/reference/get-v1-employees.md): Get an employee.  Note: Compensation data (pay rate, payment unit, and related fields) represents sensitive employee pay information. When retrieving employee job data, these fields (`rate`,…
@@ -165,14 +171,20 @@ Append .md to any documentation page URL to get its markdown version.
 - [Get a recurring reimbursement](https://docs.gusto.com/app-integrations/reference/get-v1-recurring_reimbursements.md): Get a specific recurring reimbursement.  scope: `reimbursements:read`
 - [Update a recurring reimbursement](https://docs.gusto.com/app-integrations/reference/put-v1-recurring_reimbursements.md): Update a recurring reimbursement.  scope: `reimbursements:write`
 - [Delete a recurring reimbursement](https://docs.gusto.com/app-integrations/reference/delete-v1-recurring_reimbursements.md): Delete (soft delete) a recurring reimbursement for an employee.  scope: `reimbursements:write`
+
+## API Reference: 1099 Contractors
 - [Get contractor payments for a company](https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-contractor_payments.md): Returns an object containing individual contractor payments, within a given time period, including totals.  Results are returned in reverse chronological order (newest first).  scope: `payrolls:read`
 - [Get a single contractor payment](https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_id-contractor_payment-contractor-payment.md): Returns a single contractor payment.  scope: `payrolls:read`
 - [Create a contractor](https://docs.gusto.com/app-integrations/reference/post-v1-companies-company_uuid-contractors.md): Create an individual or business contractor.  scope: `contractors:manage`
 - [Get contractors of a company](https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_uuid-contractors.md): Get all contractors, active and inactive, individual and business, for a company.  scope: `contractors:read`
 - [Get a contractor](https://docs.gusto.com/app-integrations/reference/get-v1-contractors-contractor_uuid.md): Get a contractor.  scope: `contractors:read`
 - [Update a contractor](https://docs.gusto.com/app-integrations/reference/put-v1-contractors-contractor_uuid.md): Update a contractor.  > 🚧 Warning > > Watch out when changing a contractor's type (when the contractor is finished onboarding). Specifically, changing contractor type can be dangerous since Gusto…
+
+## API Reference: Reports
 - [Create a general ledger report](https://docs.gusto.com/app-integrations/reference/post-payrolls-payroll_uuid-reports-general_ledger.md): Create a general ledger report for a payroll. The report can be aggregated by different dimensions such as job or department.  Use the `request_uuid` in the response with the [report GET…
 - [Get a report](https://docs.gusto.com/app-integrations/reference/get-reports-request_uuid.md): Get a company's report given the `request_uuid`. The response will include the report request's status and, if complete, the report URL.  Reports containing PHI are inaccessible with…
+
+## API Reference: Webhooks
 - [Create a webhook subscription](https://docs.gusto.com/app-integrations/reference/post-v1-webhook-subscription.md): Create a webhook subscription to receive events of the specified subscription_types whenever there is a state change.  📘 System Access Authentication  This endpoint uses the [Bearer Auth scheme with…
 - [List webhook subscriptions](https://docs.gusto.com/app-integrations/reference/get-v1-webhook-subscriptions.md): Returns all webhook subscriptions associated with the provided Partner API token.  📘 System Access Authentication  This endpoint uses the [Bearer Auth scheme with the system-level access token in the…
 - [Update a webhook subscription](https://docs.gusto.com/app-integrations/reference/put-v1-webhook-subscription-uuid.md): Updates the Webhook Subscription associated with the provided UUID.  📘 System Access Authentication  This endpoint uses the [Bearer Auth scheme with the system-level access token in the HTTP…

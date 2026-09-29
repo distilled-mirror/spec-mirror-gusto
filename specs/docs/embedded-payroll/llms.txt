@@ -2,65 +2,69 @@
 
 > Documentation for Embedded Payroll
 
-Append .md to any documentation page URL to get its markdown version.
-
-## Guides
+## Guides: Getting started
 - [Introduction](https://docs.gusto.com/embedded-payroll/docs/introduction.md)
 - [Platform overview](https://docs.gusto.com/embedded-payroll/docs/platform-overview.md)
 - [Quickstart](https://docs.gusto.com/embedded-payroll/docs/quickstart.md): Get started with Gusto Embedded in under 5 minutes
-- [Getting started](https://docs.gusto.com/embedded-payroll/docs/getting-started.md): An expanded version of our Quickstart, follow this guide to set up an application, company, company location, and add an employee.
+  - [Getting started](https://docs.gusto.com/embedded-payroll/docs/getting-started.md): An expanded version of our Quickstart, follow this guide to set up an application, company, company location, and add an employee.
 - [Payroll fundamentals](https://docs.gusto.com/embedded-payroll/docs/payroll-fundamentals.md)
+
+## Guides: Developer tools
 - [Authentication and authorization](https://docs.gusto.com/embedded-payroll/docs/authentication-and-authorization.md)
 - [Postman](https://docs.gusto.com/embedded-payroll/docs/postman.md): Learn how to set up and maintain your Postman environment
 - [API versioning](https://docs.gusto.com/embedded-payroll/docs/api-versioning.md): Understanding Gusto date-based versioning
-- [What is a breaking change?](https://docs.gusto.com/embedded-payroll/docs/what-is-a-breaking-change.md): Understand how Gusto versions its API and what changes may require updates to your integration
-- [Version upgrade guide](https://docs.gusto.com/embedded-payroll/docs/version-upgrade-guide.md)
+  - [What is a breaking change?](https://docs.gusto.com/embedded-payroll/docs/what-is-a-breaking-change.md): Understand how Gusto versions its API and what changes may require updates to your integration
+  - [Version upgrade guide](https://docs.gusto.com/embedded-payroll/docs/version-upgrade-guide.md)
 - [API fundamentals](https://docs.gusto.com/embedded-payroll/docs/api-fundamentals.md): Learn about the Gusto API, including pagination, rate limits, and scopes
 - [Errors](https://docs.gusto.com/embedded-payroll/docs/errors.md)
-- [Error Categories](https://docs.gusto.com/embedded-payroll/docs/error-categories.md)
+  - [Error Categories](https://docs.gusto.com/embedded-payroll/docs/error-categories.md)
 - [Webhooks](https://docs.gusto.com/embedded-payroll/docs/webhooks.md)
-- [Best Practices](https://docs.gusto.com/embedded-payroll/docs/best-practices.md)
-- [Webhook Events](https://docs.gusto.com/embedded-payroll/docs/webhook-events.md)
-- [Bank Account Events](https://docs.gusto.com/embedded-payroll/docs/bank-account-events.md)
-- [Company Events](https://docs.gusto.com/embedded-payroll/docs/company-events.md)
-- [Company Benefit Events](https://docs.gusto.com/embedded-payroll/docs/company-benefit-events.md)
-- [Contractor Events](https://docs.gusto.com/embedded-payroll/docs/contractor-events.md)
-- [Contractor Payment Events](https://docs.gusto.com/embedded-payroll/docs/contractor-payment-events.md)
-- [Contractor Payment Group Events](https://docs.gusto.com/embedded-payroll/docs/contractor-payment-group-events.md)
-- [Employee Events](https://docs.gusto.com/embedded-payroll/docs/employee-events.md)
-- [Employee Home Address Events](https://docs.gusto.com/embedded-payroll/docs/home-address-events.md)
-- [Employee Work Address Events](https://docs.gusto.com/embedded-payroll/docs/work-address-events.md)
-- [Employee Benefit Events](https://docs.gusto.com/embedded-payroll/docs/employee-benefit-events.md)
-- [Employee Job Compensation Events](https://docs.gusto.com/embedded-payroll/docs/employee-job-compensation-events.md)
-- [External Payroll Events](https://docs.gusto.com/embedded-payroll/docs/external-payroll-events.md)
-- [Fast Ach Config Events](https://docs.gusto.com/embedded-payroll/docs/fast-ach-config-events.md)
-- [Form Events](https://docs.gusto.com/embedded-payroll/docs/form-events.md)
-- [Document Events](https://docs.gusto.com/embedded-payroll/docs/document-events.md)
-- [Generated Document Events](https://docs.gusto.com/embedded-payroll/docs/generated-document-events.md)
-- [Location Events](https://docs.gusto.com/embedded-payroll/docs/location-events.md)
-- [Member Portal Invitation Events](https://docs.gusto.com/embedded-payroll/docs/member-portal-invitation-events.md)
-- [Notification Events](https://docs.gusto.com/embedded-payroll/docs/notification-events.md)
-- [Payroll Events](https://docs.gusto.com/embedded-payroll/docs/payroll-events.md)
-- [Pay Schedule Events](https://docs.gusto.com/embedded-payroll/docs/pay-schedule-events.md)
-- [Signatory Events](https://docs.gusto.com/embedded-payroll/docs/signatory-events.md)
-- [Time Off Request Events](https://docs.gusto.com/embedded-payroll/docs/time-off-request-events.md)
+  - [Best Practices](https://docs.gusto.com/embedded-payroll/docs/best-practices.md)
+  - [Webhook Events](https://docs.gusto.com/embedded-payroll/docs/webhook-events.md)
+  - [Bank Account Events](https://docs.gusto.com/embedded-payroll/docs/bank-account-events.md)
+  - [Company Events](https://docs.gusto.com/embedded-payroll/docs/company-events.md)
+  - [Company Benefit Events](https://docs.gusto.com/embedded-payroll/docs/company-benefit-events.md)
+  - [Contractor Events](https://docs.gusto.com/embedded-payroll/docs/contractor-events.md)
+  - [Contractor Payment Events](https://docs.gusto.com/embedded-payroll/docs/contractor-payment-events.md)
+  - [Contractor Payment Group Events](https://docs.gusto.com/embedded-payroll/docs/contractor-payment-group-events.md)
+  - [Employee Events](https://docs.gusto.com/embedded-payroll/docs/employee-events.md)
+  - [Employee Home Address Events](https://docs.gusto.com/embedded-payroll/docs/home-address-events.md)
+  - [Employee Work Address Events](https://docs.gusto.com/embedded-payroll/docs/work-address-events.md)
+  - [Employee Benefit Events](https://docs.gusto.com/embedded-payroll/docs/employee-benefit-events.md)
+  - [Employee Job Compensation Events](https://docs.gusto.com/embedded-payroll/docs/employee-job-compensation-events.md)
+  - [External Payroll Events](https://docs.gusto.com/embedded-payroll/docs/external-payroll-events.md)
+  - [Fast Ach Config Events](https://docs.gusto.com/embedded-payroll/docs/fast-ach-config-events.md)
+  - [Form Events](https://docs.gusto.com/embedded-payroll/docs/form-events.md)
+  - [Document Events](https://docs.gusto.com/embedded-payroll/docs/document-events.md)
+  - [Generated Document Events](https://docs.gusto.com/embedded-payroll/docs/generated-document-events.md)
+  - [Location Events](https://docs.gusto.com/embedded-payroll/docs/location-events.md)
+  - [Member Portal Invitation Events](https://docs.gusto.com/embedded-payroll/docs/member-portal-invitation-events.md)
+  - [Notification Events](https://docs.gusto.com/embedded-payroll/docs/notification-events.md)
+  - [Payroll Events](https://docs.gusto.com/embedded-payroll/docs/payroll-events.md)
+  - [Pay Schedule Events](https://docs.gusto.com/embedded-payroll/docs/pay-schedule-events.md)
+  - [Signatory Events](https://docs.gusto.com/embedded-payroll/docs/signatory-events.md)
+  - [Time Off Request Events](https://docs.gusto.com/embedded-payroll/docs/time-off-request-events.md)
 - [Partner notifications](https://docs.gusto.com/embedded-payroll/docs/partner-notifications.md): Build and manage critical notifications for your end users
-- [Partner Notification types](https://docs.gusto.com/embedded-payroll/docs/partner-notification-types.md): Resource table
-- [Testing Partner Notifications](https://docs.gusto.com/embedded-payroll/docs/testing-partner-notifications.md): Receive notification webhooks in demo
+  - [Partner Notification types](https://docs.gusto.com/embedded-payroll/docs/partner-notification-types.md): Resource table
+  - [Testing Partner Notifications](https://docs.gusto.com/embedded-payroll/docs/testing-partner-notifications.md): Receive notification webhooks in demo
 - [Dev Assistant MCP](https://docs.gusto.com/embedded-payroll/docs/dev-assistant-mcp.md): Learn how to set up and test the Gusto Embedded Dev Assistant MCP server for AI-powered tools.
+
+## Guides: Build options
 - [Introduction](https://docs.gusto.com/embedded-payroll/docs/build-options-introduction.md): Learn about the available options for building with Gusto Embedded Payroll
 - [React SDK](https://docs.gusto.com/embedded-payroll/docs/react-sdk.md): A React component library for building payroll—deeply customizable and quick-to-deploy
 - [API Clients](https://docs.gusto.com/embedded-payroll/docs/api-clients.md)
 - [Gusto Flows (pre-built UI)](https://docs.gusto.com/embedded-payroll/docs/gusto-flows-pre-built-ui.md)
-- [Flows quickstart](https://docs.gusto.com/embedded-payroll/docs/flows-quickstart.md)
-- [Customize flows](https://docs.gusto.com/embedded-payroll/docs/customize-flows.md)
-- [Flow types](https://docs.gusto.com/embedded-payroll/docs/flow-types.md)
-- [Try it now](https://docs.gusto.com/embedded-payroll/docs/try-it-now.md)
-- [Flow events](https://docs.gusto.com/embedded-payroll/docs/flow-events.md)
+  - [Flows quickstart](https://docs.gusto.com/embedded-payroll/docs/flows-quickstart.md)
+  - [Customize flows](https://docs.gusto.com/embedded-payroll/docs/customize-flows.md)
+  - [Flow types](https://docs.gusto.com/embedded-payroll/docs/flow-types.md)
+  - [Try it now](https://docs.gusto.com/embedded-payroll/docs/try-it-now.md)
+  - [Flow events](https://docs.gusto.com/embedded-payroll/docs/flow-events.md)
+
+## Guides: Companies
 - [Introduction](https://docs.gusto.com/embedded-payroll/docs/companies-intro.md): Integrate company and employee-related data, and streamline operations
 - [Onboard a company](https://docs.gusto.com/embedded-payroll/docs/onboard-a-company.md): Streamline company setup, ensure regulatory compliance, and prepare for payroll activation
-- [Migrate an existing company](https://docs.gusto.com/embedded-payroll/docs/migrate-existing-company.md): Learn how to migrate a Gusto.com company to your Embedded Payroll system
-- [Onboard a contractor-only company](https://docs.gusto.com/embedded-payroll/docs/onboard-a-contractor-only-company.md): Set up companies that exclusively employ contractors
+  - [Migrate an existing company](https://docs.gusto.com/embedded-payroll/docs/migrate-existing-company.md): Learn how to migrate a Gusto.com company to your Embedded Payroll system
+  - [Onboard a contractor-only company](https://docs.gusto.com/embedded-payroll/docs/onboard-a-contractor-only-company.md): Set up companies that exclusively employ contractors
 - [Manage company locations](https://docs.gusto.com/embedded-payroll/docs/manage-company-locations.md): Learn how to manage company locations such as filing and mailing addresses, and work locations
 - [Manage company bank accounts](https://docs.gusto.com/embedded-payroll/docs/manage-company-bank-accounts.md)
 - [Create company benefits](https://docs.gusto.com/embedded-payroll/docs/create-company-benefits.md)
@@ -68,70 +72,86 @@ Append .md to any documentation page URL to get its markdown version.
 - [Manage company attachments](https://docs.gusto.com/embedded-payroll/docs/manage-company-attachments.md)
 - [Create a department](https://docs.gusto.com/embedded-payroll/docs/create-a-department.md)
 - [Time off requests](https://docs.gusto.com/embedded-payroll/docs/time-off-requests.md): Submit time off requests, manage admin approvals, and apply time off automatically to payroll
+
+## Guides: People management
 - [Manage W-2 employees](https://docs.gusto.com/embedded-payroll/docs/manage-w-2-employees.md): Learn how to manage the onboarding, compensation, benefits, and more for W-2 employees
-- [Onboard a W-2 employee](https://docs.gusto.com/embedded-payroll/docs/onboard-a-w2-employee.md): Add a new employee or invite them to self-onboard
-- [Onboarding Method Comparison](https://docs.gusto.com/embedded-payroll/docs/onboarding-method-comparison.md)
-- [Employee self-onboarding](https://docs.gusto.com/embedded-payroll/docs/employee-self-management.md): Enable employees to self-onboard into a company
-- [Adjust for minimum wage](https://docs.gusto.com/embedded-payroll/docs/adjust-for-minimum-wage.md)
-- [Configure employee tax information](https://docs.gusto.com/embedded-payroll/docs/configure-employee-tax-information.md)
-- [I-9 employment verification](https://docs.gusto.com/embedded-payroll/docs/i-9-employment-verification.md)
-- [I-9 Verification Using Flows](https://docs.gusto.com/embedded-payroll/docs/i-9-verification-using-flows.md)
-- [Calculate a reasonable salary for S Corp owner-employees](https://docs.gusto.com/embedded-payroll/docs/calculate-a-reasonable-salary-for-s-corp-owner-employees.md): Give S Corp owner-employees a way to estimate BLS-compliant salaries
-- [Terminate a W2 Employee](https://docs.gusto.com/embedded-payroll/docs/terminate-a-w2-employee.md)
-- [Manage recurring reimbursements](https://docs.gusto.com/embedded-payroll/docs/manage-recurring-reimbursements.md)
-- [Create a child support garnishment](https://docs.gusto.com/embedded-payroll/docs/create-a-child-support-garnishment.md): Retrieve agency information and create, update, and confirm child support garnishments
-- [Manage employee benefits](https://docs.gusto.com/embedded-payroll/docs/manage-employee-benefits.md): Create and view the benefits assigned to an employee
-- [Benefit effective dating](https://docs.gusto.com/embedded-payroll/docs/benefit-effective-dating.md)
+  - [Onboard a W-2 employee](https://docs.gusto.com/embedded-payroll/docs/onboard-a-w2-employee.md): Add a new employee or invite them to self-onboard
+    - [Onboarding Method Comparison](https://docs.gusto.com/embedded-payroll/docs/onboarding-method-comparison.md)
+    - [Employee self-onboarding](https://docs.gusto.com/embedded-payroll/docs/employee-self-management.md): Enable employees to self-onboard into a company
+  - [Adjust for minimum wage](https://docs.gusto.com/embedded-payroll/docs/adjust-for-minimum-wage.md)
+  - [Configure employee tax information](https://docs.gusto.com/embedded-payroll/docs/configure-employee-tax-information.md)
+  - [I-9 employment verification](https://docs.gusto.com/embedded-payroll/docs/i-9-employment-verification.md)
+  - [I-9 Verification Using Flows](https://docs.gusto.com/embedded-payroll/docs/i-9-verification-using-flows.md)
+  - [Calculate a reasonable salary for S Corp owner-employees](https://docs.gusto.com/embedded-payroll/docs/calculate-a-reasonable-salary-for-s-corp-owner-employees.md): Give S Corp owner-employees a way to estimate BLS-compliant salaries
+  - [Terminate a W2 Employee](https://docs.gusto.com/embedded-payroll/docs/terminate-a-w2-employee.md)
+  - [Manage recurring reimbursements](https://docs.gusto.com/embedded-payroll/docs/manage-recurring-reimbursements.md)
+  - [Create a child support garnishment](https://docs.gusto.com/embedded-payroll/docs/create-a-child-support-garnishment.md): Retrieve agency information and create, update, and confirm child support garnishments
+  - [Manage employee benefits](https://docs.gusto.com/embedded-payroll/docs/manage-employee-benefits.md): Create and view the benefits assigned to an employee
+    - [Benefit effective dating](https://docs.gusto.com/embedded-payroll/docs/benefit-effective-dating.md)
 - [People Batch API](https://docs.gusto.com/embedded-payroll/docs/people-batch-api.md): Create batches of employees in a single request
-- [Create a people batch](https://docs.gusto.com/embedded-payroll/docs/create-people-batch.md)
-- [Person data](https://docs.gusto.com/embedded-payroll/docs/people-data.md)
-- [Home address](https://docs.gusto.com/embedded-payroll/docs/home-address.md)
-- [Work address](https://docs.gusto.com/embedded-payroll/docs/work-address.md)
-- [Job](https://docs.gusto.com/embedded-payroll/docs/job.md)
-- [Compensation](https://docs.gusto.com/embedded-payroll/docs/compensation.md)
-- [Bank accounts and direct deposit splits](https://docs.gusto.com/embedded-payroll/docs/bank-accounts-and-direct-deposit-splits.md)
-- [Department information](https://docs.gusto.com/embedded-payroll/docs/department-information.md)
-- [ Get the status of a people batch](https://docs.gusto.com/embedded-payroll/docs/get-people-batch-status.md)
-- [People batch webhooks](https://docs.gusto.com/embedded-payroll/docs/webhook.md)
+  - [Create a people batch](https://docs.gusto.com/embedded-payroll/docs/create-people-batch.md)
+    - [Person data](https://docs.gusto.com/embedded-payroll/docs/people-data.md)
+    - [Home address](https://docs.gusto.com/embedded-payroll/docs/home-address.md)
+    - [Work address](https://docs.gusto.com/embedded-payroll/docs/work-address.md)
+    - [Job](https://docs.gusto.com/embedded-payroll/docs/job.md)
+    - [Compensation](https://docs.gusto.com/embedded-payroll/docs/compensation.md)
+    - [Bank accounts and direct deposit splits](https://docs.gusto.com/embedded-payroll/docs/bank-accounts-and-direct-deposit-splits.md)
+    - [Department information](https://docs.gusto.com/embedded-payroll/docs/department-information.md)
+  - [ Get the status of a people batch](https://docs.gusto.com/embedded-payroll/docs/get-people-batch-status.md)
+  - [People batch webhooks](https://docs.gusto.com/embedded-payroll/docs/webhook.md)
 - [Manage contractors](https://docs.gusto.com/embedded-payroll/docs/manage-contractors.md): Simplify the management of 1099 workers, including freelance, self-employed, and contract staff
-- [Onboard a Contractor](https://docs.gusto.com/embedded-payroll/docs/onboard-a-contractor.md): Add a 1099 worker to your company payroll
-- [Pay contractors](https://docs.gusto.com/embedded-payroll/docs/process-contractor-payments.md): Set up payments to 1099 workers
-- [Contractor Payment Receipts](https://docs.gusto.com/embedded-payroll/docs/contractor-payment-receipts.md)
-- [Contractor payment group submission blockers](https://docs.gusto.com/embedded-payroll/docs/contractor-payment-group-submission-blockers.md)
-- [Manage contractor forms and documents](https://docs.gusto.com/embedded-payroll/docs/contractor-forms-documents.md): Get contractor forms and documents, and PDF versions
-- [Contractor forms](https://docs.gusto.com/embedded-payroll/docs/contractor-forms-guide.md)
-- [Contractor documents](https://docs.gusto.com/embedded-payroll/docs/contractor-documents-guide.md)
+  - [Onboard a Contractor](https://docs.gusto.com/embedded-payroll/docs/onboard-a-contractor.md): Add a 1099 worker to your company payroll
+  - [Pay contractors](https://docs.gusto.com/embedded-payroll/docs/process-contractor-payments.md): Set up payments to 1099 workers
+    - [Contractor Payment Receipts](https://docs.gusto.com/embedded-payroll/docs/contractor-payment-receipts.md)
+  - [Contractor payment group submission blockers](https://docs.gusto.com/embedded-payroll/docs/contractor-payment-group-submission-blockers.md)
+  - [Manage contractor forms and documents](https://docs.gusto.com/embedded-payroll/docs/contractor-forms-documents.md): Get contractor forms and documents, and PDF versions
+    - [Contractor forms](https://docs.gusto.com/embedded-payroll/docs/contractor-forms-guide.md)
+    - [Contractor documents](https://docs.gusto.com/embedded-payroll/docs/contractor-documents-guide.md)
 - [Time off policies](https://docs.gusto.com/embedded-payroll/docs/time-off-policies.md): Learn how to manage vacation, sick, and holiday time off policies
-- [Manage time off policies](https://docs.gusto.com/embedded-payroll/docs/manage-time-off-policies.md): Create, manage, and add employees to time off policies
-- [Accrual methods](https://docs.gusto.com/embedded-payroll/docs/accrual-methods.md)
-- [Time off management flow](https://docs.gusto.com/embedded-payroll/docs/time-off-management-flow.md)
-- [Create a holiday pay policy](https://docs.gusto.com/embedded-payroll/docs/create-a-holiday-pay-policy.md): Define how employees get paid for holidays
+  - [Manage time off policies](https://docs.gusto.com/embedded-payroll/docs/manage-time-off-policies.md): Create, manage, and add employees to time off policies
+    - [Accrual methods](https://docs.gusto.com/embedded-payroll/docs/accrual-methods.md)
+    - [Time off management flow](https://docs.gusto.com/embedded-payroll/docs/time-off-management-flow.md)
+  - [Create a holiday pay policy](https://docs.gusto.com/embedded-payroll/docs/create-a-holiday-pay-policy.md): Define how employees get paid for holidays
+
+## Guides: Payrolls
 - [Payroll Processing Speeds](https://docs.gusto.com/embedded-payroll/docs/2-day-vs-4-day.md)
 - [Recovery Cases](https://docs.gusto.com/embedded-payroll/docs/recovery-cases-1.md)
 - [Complete a Regular Payroll](https://docs.gusto.com/embedded-payroll/docs/complete-a-regular-payroll.md)
-- [Payroll Statuses](https://docs.gusto.com/embedded-payroll/docs/payroll-statuses.md)
-- [Payroll Receipts](https://docs.gusto.com/embedded-payroll/docs/payroll-receipts.md)
-- [Payroll Blockers](https://docs.gusto.com/embedded-payroll/docs/payroll-blockers.md)
-- [Payroll Submission Blockers & Unblock Options](https://docs.gusto.com/embedded-payroll/docs/payroll-submission-blockers-unblock-options.md)
-- [Payroll Processing Request](https://docs.gusto.com/embedded-payroll/docs/payroll-processing-request.md)
+  - [Payroll Statuses](https://docs.gusto.com/embedded-payroll/docs/payroll-statuses.md)
+  - [Payroll Receipts](https://docs.gusto.com/embedded-payroll/docs/payroll-receipts.md)
+  - [Payroll Blockers](https://docs.gusto.com/embedded-payroll/docs/payroll-blockers.md)
+  - [Payroll Submission Blockers & Unblock Options](https://docs.gusto.com/embedded-payroll/docs/payroll-submission-blockers-unblock-options.md)
+  - [Payroll Processing Request](https://docs.gusto.com/embedded-payroll/docs/payroll-processing-request.md)
 - [Pay Schedules](https://docs.gusto.com/embedded-payroll/docs/pay-schedule-info.md)
-- [Create a pay schedule](https://docs.gusto.com/embedded-payroll/docs/create-a-pay-schedule.md)
-- [Manage Pay Schedules via API](https://docs.gusto.com/embedded-payroll/docs/manage-pay-schedules-api.md)
+  - [Create a pay schedule](https://docs.gusto.com/embedded-payroll/docs/create-a-pay-schedule.md)
+  - [Manage Pay Schedules via API](https://docs.gusto.com/embedded-payroll/docs/manage-pay-schedules-api.md)
 - [Payroll Digests API](https://docs.gusto.com/embedded-payroll/docs/payroll-digests-api.md): Fetch a summary of payroll state across many companies in a single request
 - [Batch Payroll Cancellation API](https://docs.gusto.com/embedded-payroll/docs/bulk-payroll-cancellations.md): Cancel multiple payrolls for companies
+
+## Guides: Reports
 - [Generate Custom Reports](https://docs.gusto.com/embedded-payroll/docs/generate-custom-reports.md)
 - [Retrieve a General Ledger report](https://docs.gusto.com/embedded-payroll/docs/retrieve-a-general-ledger-report.md)
+
+## Guides: ACH TRANSACTIONS
 - [ACH Codes and Transaction Types](https://docs.gusto.com/embedded-payroll/docs/ach-codes-and-transaction-types.md)
+
+## Guides: Product Partnerships
 - [Health Insurance (SimplyInsured)](https://docs.gusto.com/embedded-payroll/docs/health-insurance-simplyinsured.md)
 - [Workers' Compensation (NEXT)](https://docs.gusto.com/embedded-payroll/docs/workers-compensation-next.md)
 - [401(k) (Guideline)](https://docs.gusto.com/embedded-payroll/docs/401k-guideline.md)
 - [Accounting integrations (Xero and QuickBooks Online)](https://docs.gusto.com/embedded-payroll/docs/testing-accounting-integrations-xero-and-qbo.md)
 
-## API Reference
+## API Reference: Versions
 - [What's new in v2026-06-15](https://docs.gusto.com/embedded-payroll/reference/whats-new-in-v2026-06-15.md)
+
+## API Reference: Token
 - [Create a System Access Token or Refresh an Access Token](https://docs.gusto.com/embedded-payroll/reference/oauth-access-token.md): Creates a system access token or refreshes an oauth access token
 - [Get info about the current access token](https://docs.gusto.com/embedded-payroll/reference/get-v1-token-info.md): Returns scope and resource information associated with the current access token. Use this endpoint to verify the following for the current access token: * Resource (company, employee, contractor, or…
+
+## API Reference: Flows (Pre-built UI)
 - [Create a flow](https://docs.gusto.com/embedded-payroll/reference/post-v1-company-flows.md): Generate a link to access a pre-built workflow in Gusto white-label UI. For security, all generated flows will expire within 1 hour of inactivity or 24 hours from creation time, whichever comes…
+
+## API Reference: Companies
 - [Create a people batch](https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-people_batches.md): Creates a batch for bulk employee creation.  The batch is processed asynchronously. Use the returned batch UUID to poll for status and results.  scope: `people_batches:write`
 - [Get a people batch](https://docs.gusto.com/embedded-payroll/reference/get-v1-people_batches-people_batch_uuid.md): Returns the status and results of a people batch.  Poll this endpoint to check the batch processing status and retrieve results.  scope: `people_batches:read`
 - [Create a partner managed company](https://docs.gusto.com/embedded-payroll/reference/post-v1-partner-managed-companies.md): Create a partner managed company. When you successfully call the API, it does the following: * Creates a new company in Gusto * Creates a new user using the provided email if the user does not…
@@ -207,6 +227,8 @@ Append .md to any documentation page URL to get its markdown version.
 - [Delete a department](https://docs.gusto.com/embedded-payroll/reference/delete-department.md): Delete a department. You cannot delete a department until all employees and contractors have been removed.  scope: `departments:write`
 - [Add people to a department](https://docs.gusto.com/embedded-payroll/reference/put-add-people-to-department.md): Add employees and contractors to a department  scope: `departments:write`
 - [Remove people from a department](https://docs.gusto.com/embedded-payroll/reference/put-remove-people-from-department.md): Remove employees and contractors from a department  scope: `departments:write`
+
+## API Reference: W2 Employees
 - [Get federal taxes for an employee](https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-federal_taxes.md): Returns federal tax information for an employee. The response structure varies based on the w4_data_type (pre_2020_w4 or rev_2020_w4).  scope: `employee_federal_taxes:read`
 - [Update federal taxes for an employee](https://docs.gusto.com/embedded-payroll/reference/put-v1-employees-employee_id-federal_taxes.md): Updates federal tax (W4) information for an employee. Only rev_2020_w4 format is accepted for updates.  scope: `employee_federal_taxes:write`
 - [Get an employee's state taxes](https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-state_taxes.md): Get attributes relevant for an employee's state taxes.  The data required to correctly calculate an employee's state taxes varies by both home and work location. This API returns information about…
@@ -288,6 +310,8 @@ Append .md to any documentation page URL to get its markdown version.
 - [Get a garnishment](https://docs.gusto.com/embedded-payroll/reference/get-v1-garnishments-garnishment_id.md): Garnishments, or employee deductions, are fixed amounts or percentages deducted from an employee’s pay. They can be deducted a specific number of times or on a recurring basis. Garnishments can also…
 - [Update a garnishment](https://docs.gusto.com/embedded-payroll/reference/put-v1-garnishments-garnishment_id.md): Garnishments, or employee deductions, are fixed amounts or percentages deducted from an employee’s pay. They can be deducted a specific number of times or on a recurring basis. Garnishments can also…
 - [Get child support garnishment data](https://docs.gusto.com/embedded-payroll/reference/get-v1-garnishments-child_support.md): Agency data and requirements to be used for creating child support garnishments  scope: `garnishments:read`
+
+## API Reference: 1099 Contractors
 - [Create a contractor payment group](https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-contractor_payment_groups.md): Pay a group of contractors. Information needed depends on the contractor's wage type (hourly vs fixed)  scope: `payrolls:run`
 - [Get contractor payment groups for a company](https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-contractor_payment_groups.md): Returns a list of minimal contractor payment groups within a given time period, including totals but not associated contractor payments.  scope: `payrolls:read`
 - [Preview a contractor payment group](https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-contractor_payment_groups-preview.md): Preview a group of contractor payments. Request will validate inputs and return preview of the contractor payment group including the expected `debit_date`. The `uuid` field will be null in the…
@@ -331,6 +355,8 @@ Append .md to any documentation page URL to get its markdown version.
 - [Schedule a contractor termination](https://docs.gusto.com/embedded-payroll/reference/post-v1-contractors-contractor_uuid-termination.md): ## Purpose Schedules a contractor dismissal for a given date. Supports both immediate (past dates) and future-dated dismissals.  ## Prerequisites Before calling this endpoint: 1. The contractor must…
 - [Cancel a pending contractor rehire](https://docs.gusto.com/embedded-payroll/reference/delete-v1-contractors-contractor_uuid-rehire.md): ## Purpose Cancels a pending contractor rehire. For future-dated rehires, cancellation is available anytime before the date. For past-dated rehires, cancellation is only available within the 2-day…
 - [Schedule a contractor rehire](https://docs.gusto.com/embedded-payroll/reference/post-v1-contractors-contractor_uuid-rehire.md): ## Purpose Schedules a contractor rehire for a given date. Creates a new employment record for the contractor.  ## Prerequisites Before calling this endpoint: 1. The contractor must be inactive…
+
+## API Reference: Payrolls
 - [Create a payroll cancellation batch](https://docs.gusto.com/embedded-payroll/reference/post-v1-payroll_batches.md): Cancels up to 100 payrolls across one or more companies the partner is mapped to, asynchronously.  The batch is processed asynchronously. Use the returned batch UUID to poll `GET…
 - [Get a payroll cancellation batch](https://docs.gusto.com/embedded-payroll/reference/get-v1-payroll_batches-payroll_batch_uuid.md): Returns the status and per-payroll results of a payroll cancellation batch.  Poll this endpoint until the batch `status` reaches a terminal value (`completed` or `failed`). Once terminal, the…
 - [Create a payroll digest batch](https://docs.gusto.com/embedded-payroll/reference/post-v1-payroll_digests.md): Triggers an asynchronous computation of payroll digest data (statuses, blockers, pay periods, totals) across up to 25 companies that the partner is mapped to.  The batch is processed asynchronously.…
@@ -377,7 +403,11 @@ Append .md to any documentation page URL to get its markdown version.
 - [Generate printable payroll checks (pdf)](https://docs.gusto.com/embedded-payroll/reference/post-v1-payrolls-payroll_uuid-generated_documents-printable_payroll_checks.md): This endpoint initiates the generation of employee checks for the payroll specified by payroll_uuid. A generation status and corresponding request_uuid will be returned. Use the generated document…
 - [Get partner disbursements for a payroll](https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-payrolls-id-partner_disbursements.md): Get partner disbursements for a specific payroll.  scope: `partner_disbursements:read`
 - [Update partner disbursements for a payroll](https://docs.gusto.com/embedded-payroll/reference/patch-v1-companies-company_id-payrolls-id-partner_disbursements.md): Update partner disbursements for a specific payroll.  scope: `partner_disbursements:write`
+
+## API Reference: Events
 - [Get all events](https://docs.gusto.com/embedded-payroll/reference/get-events.md): Fetch all events, going back up to 30 days, that your partner application has the required scopes for. Note that a partner does NOT have to have verified webhook subscriptions in order to utilize…
+
+## API Reference: Webhooks
 - [Create a webhook subscription](https://docs.gusto.com/embedded-payroll/reference/post-v1-webhook-subscription.md): Create a webhook subscription to receive events of the specified subscription_types whenever there is a state change.  📘 System Access Authentication  This endpoint uses the [Bearer Auth scheme with…
 - [List webhook subscriptions](https://docs.gusto.com/embedded-payroll/reference/get-v1-webhook-subscriptions.md): Returns all webhook subscriptions associated with the provided Partner API token.  📘 System Access Authentication  This endpoint uses the [Bearer Auth scheme with the system-level access token in the…
 - [Update a webhook subscription](https://docs.gusto.com/embedded-payroll/reference/put-v1-webhook-subscription-uuid.md): Updates the Webhook Subscription associated with the provided UUID.  📘 System Access Authentication  This endpoint uses the [Bearer Auth scheme with the system-level access token in the HTTP…
@@ -386,8 +416,12 @@ Append .md to any documentation page URL to get its markdown version.
 - [Verify a webhook subscription](https://docs.gusto.com/embedded-payroll/reference/put-v1-verify-webhook-subscription-uuid.md): When a webhook subscription is created, a `verification_token` is POSTed to the registered webhook subscription URL. This `verify` endpoint needs to be called with `verification_token` before webhook…
 - [Request a verification token for a webhook subscription](https://docs.gusto.com/embedded-payroll/reference/get-v1-webhook-subscription-verification-token-uuid.md): Request that the webhook subscription `verification_token` be POSTed to the Subscription URL.  📘 System Access Authentication  This endpoint uses the [Bearer Auth scheme with the system-level access…
 - [Get the webhooks health status](https://docs.gusto.com/embedded-payroll/reference/get-v1-webhooks-health_check.md): Returns the health status (`healthy`, `unhealthy`, or `unknown`) of the webhooks system based on the last ten minutes of activity.  📘 System Access Authentication  This endpoint uses the [Bearer Auth…
+
+## API Reference: NOTIFICATIONS
 - [Get a notification's details](https://docs.gusto.com/embedded-payroll/reference/get-notifications-notification_uuid.md): Upon receiving a notification webhook event, use this endpoint to fetch the notification's details. The notification details include basic suggested content that can help you build notifications in…
 - [Get notifications for company](https://docs.gusto.com/embedded-payroll/reference/get-company-notifications.md): Returns all notifications relevant for the given company.  scope: `notifications:read`
+
+## API Reference: Time Off Policies
 - [Create a time off policy](https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-time_off_policies.md): Create a time off policy  scope: `time_off_policies:write`
 - [Get a time off policy](https://docs.gusto.com/embedded-payroll/reference/get-v1-time_off_policies-time_off_policy_uuid.md): Get a time off policy  scope: `time_off_policies:read`
 - [Get all time off policies for a company](https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-time_off_policies.md): Get all time off policies for a company  scope: `time_off_policies:read`
@@ -397,6 +431,8 @@ Append .md to any documentation page URL to get its markdown version.
 - [Update employee time off balances](https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-balance.md): Updates time off hours balances for employees for a time off policy.  scope: `time_off_policies:write`
 - [Add employees to a time off policy](https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-add_employees.md): Add employees to a time off policy. Employees are required to have at least one job to be added to a time off policy. Accepts starting balances for non-unlimited policies  scope:…
 - [Remove employees from a time off policy](https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off_policies-time_off_policy_uuid-remove_employees.md): Remove employees from a time off policy  scope: `time_off_policies:write`
+
+## API Reference: Holiday Pay Policies
 - [Get a company's holiday pay policy](https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-holiday_pay_policy.md): Get a company's holiday pay policy  scope: `holiday_pay_policies:read`
 - [Create a holiday pay policy for a company](https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-holiday_pay_policy.md): Create a holiday pay policy for a company  scope: `holiday_pay_policies:write`
 - [Update a company's holiday pay policy](https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-holiday_pay_policy.md): Update a company's holiday pay policy  scope: `holiday_pay_policies:write`
@@ -404,6 +440,8 @@ Append .md to any documentation page URL to get its markdown version.
 - [Add employees to a company's holiday pay policy](https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-holiday_pay_policy-add.md): Add employees to a company's holiday pay policy  scope: `holiday_pay_policies:write`
 - [Remove employees from a company's holiday pay policy](https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-holiday_pay_policy-remove.md): Remove employees from a company's holiday pay policy  scope: `holiday_pay_policies:write`
 - [Preview a company's paid holidays](https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-paid_holidays.md): Preview a company's paid holidays  If a year is passed, paid holidays for that year will be returned. Otherwise, paid holidays for the next three years will be returned.  scope:…
+
+## API Reference: Time Off Requests
 - [Create an admin-approved time off request](https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_uuid-time_off-admin_approved_requests.md): Create a pre-approved time off request on behalf of an employee (admin or system initiated). The request is always created with approved status.  scope: `time_off_requests:manage`
 - [Get time off balances for a company](https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-time_off-balances.md): Get time off balances for all employees in a company  scope: `time_off_requests:read`
 - [List time off requests for a company](https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-time_off-requests.md): Get all time off requests for a company. Supports filtering by status, employee, and date ranges.  Possible statuses: - `pending` — awaiting approval - `approved` — approved by an admin but not yet…
@@ -413,7 +451,11 @@ Append .md to any documentation page URL to get its markdown version.
 - [Delete a time off request](https://docs.gusto.com/embedded-payroll/reference/delete-v1-time_off-requests-time_off_request_uuid.md): Delete a time off request  scope: `time_off_requests:write`
 - [Approve a time off request](https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off-requests-time_off_request_uuid-approve.md): Approve a pending time off request. Optionally override the dates and hours.  Only requests with a `pending` status can be approved. Attempting to approve a request that has already been `declined`…
 - [Decline a time off request](https://docs.gusto.com/embedded-payroll/reference/put-v1-time_off-requests-time_off_request_uuid-decline.md): Decline a pending or approved time off request. Requires an employer_note.  scope: `time_off_requests:manage`
+
+## API Reference: Generated Documents
 - [Get a generated document](https://docs.gusto.com/embedded-payroll/reference/get-v1-generated_documents-document_type-request_uuid.md): Get a document given the request_uuid. The response will include the generation request's status and urls to the document. A list of urls is returned as certain document types require several urls.…
+
+## API Reference: Reports
 - [Create a custom report](https://docs.gusto.com/embedded-payroll/reference/post-companies-company_uuid-reports.md): Create a custom report for a company. This endpoint initiates creating a custom report with custom columns, groupings, and filters. The `request_uuid` in the response can then be used to poll for the…
 - [Create a general ledger report](https://docs.gusto.com/embedded-payroll/reference/post-payrolls-payroll_uuid-reports-general_ledger.md): Create a general ledger report for a payroll. The report can be aggregated by different dimensions such as job or department.  Use the `request_uuid` in the response with the [report GET…
 - [Get a report](https://docs.gusto.com/embedded-payroll/reference/get-reports-request_uuid.md): Get a company's report given the `request_uuid`. The response will include the report request's status and, if complete, the report URL.  Reports containing PHI are inaccessible with…
@@ -421,24 +463,40 @@ Append .md to any documentation page URL to get its markdown version.
 - [Create a bulk report batch](https://docs.gusto.com/embedded-payroll/reference/post-v1-bulk_reports.md): Triggers asynchronous generation of up to 25 reports across companies the partner is mapped to. Each `batch` item is a `custom_report` (same parameters as [create a custom…
 - [Get a bulk report batch](https://docs.gusto.com/embedded-payroll/reference/get-v1-bulk_reports-request_uuid.md): Get a bulk report batch's status and results given the `request_uuid`. While in progress, only batch metadata is returned; once complete, it also includes a signed `report_url` (a zip of all…
 - [Create an employees annual FICA wage report](https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-reports-employees_annual_fica_wage.md): Generates a report containing annual FICA (Federal Insurance Contributions Act) wage data for all employees in a company over a specified year range.  This report provides detailed wage information…
+
+## API Reference: Invoices
 - [Retrieve invoicing data for companies](https://docs.gusto.com/embedded-payroll/reference/get-invoices-invoice-period.md): Retrieve data for active companies used to calculate invoices for Gusto Embedded Payroll. A company is considered active for an invoice period if they are an active partner managed company, have run…
+
+## API Reference: Recovery cases
 - [Get all recovery cases for a company](https://docs.gusto.com/embedded-payroll/reference/get-recovery-cases.md): Fetch all recovery cases for a company.  scope: `recovery_cases:read`
 - [Initiate a redebit for a recovery case](https://docs.gusto.com/embedded-payroll/reference/redebit-recovery-case.md): After resolving the underlying bank error, initiate a redebit for an open recovery case. This submission is asynchronous and a successful request responds with a 202 HTTP status.  It may take up to…
+
+## API Reference: ACH Transactions
 - [Get all ACH transactions for a company](https://docs.gusto.com/embedded-payroll/reference/get-ach-transactions.md): Fetches all ACH transactions for a company.  scope: `ach_transactions:read`
+
+## API Reference: Wire in Requests
 - [Get a single Wire In Request](https://docs.gusto.com/embedded-payroll/reference/get-wire_in_requests-wire_in_request_uuid.md): Fetch a Wire In Request.  scope: `payrolls:read`
 - [Submit a wire in request](https://docs.gusto.com/embedded-payroll/reference/put-wire_in_requests-wire_in_request_uuid.md): Submit a wire in request for a payment  scope: `payrolls:run`
 - [Get all Wire In Requests for a company](https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-wire_in_request_uuid.md): Fetches all Wire In Requests for a company.  scope: `payrolls:read`
+
+## API Reference: Information Requests
 - [Get all information requests for a company](https://docs.gusto.com/embedded-payroll/reference/get-information-requests.md): Fetch all information requests for a company.  scope: `information_requests:read`
+
+## API Reference: Reimbursements
 - [Get recurring reimbursements for an employee](https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-recurring_reimbursements.md): Get all active recurring reimbursements for an employee.  scope: `reimbursements:read`
 - [Create a recurring reimbursement](https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-recurring_reimbursements.md): Create a recurring reimbursement for an employee.  scope: `reimbursements:write`
 - [Get a recurring reimbursement](https://docs.gusto.com/embedded-payroll/reference/get-v1-recurring_reimbursements.md): Get a specific recurring reimbursement.  scope: `reimbursements:read`
 - [Update a recurring reimbursement](https://docs.gusto.com/embedded-payroll/reference/put-v1-recurring_reimbursements.md): Update a recurring reimbursement.  scope: `reimbursements:write`
 - [Delete a recurring reimbursement](https://docs.gusto.com/embedded-payroll/reference/delete-v1-recurring_reimbursements.md): Delete (soft delete) a recurring reimbursement for an employee.  scope: `reimbursements:write`
+
+## API Reference: Salary estimates
 - [Create a salary estimate for an employee](https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-salary_estimates.md): Create a salary estimate for an employee. This endpoint helps calculate a reasonable salary for S Corp owners based on their occupation, experience level, location, and business revenue.  A salary…
 - [Get a salary estimate](https://docs.gusto.com/embedded-payroll/reference/get-v1-salary_estimates-id.md): Retrieve a salary estimate by its UUID. Returns the estimated salary calculation along with all occupation details, revenue, and location information.  scope: `salary_estimates:read`
 - [Update a salary estimate](https://docs.gusto.com/embedded-payroll/reference/put-v1-salary_estimates-id.md): Update an existing salary estimate. You can modify the annual net revenue, ZIP code, and occupations.  The salary estimate must not be finalized (accepted). Once accepted, salary estimates become…
 - [Accept a salary estimate](https://docs.gusto.com/embedded-payroll/reference/post-v1-salary_estimates-uuid-accept.md): Accept and finalize a salary estimate. This associates the estimate with an employee job and marks it as accepted.  Once accepted, the salary estimate becomes read-only for record-keeping purposes.…
 - [Search for BLS occupations](https://docs.gusto.com/embedded-payroll/reference/get-v1-salary_estimates-occupations.md): Search for Bureau of Labor Statistics (BLS) occupations by name or keyword. This endpoint helps users find the appropriate occupation codes to use when creating or updating salary estimates.  Returns…
+
+## API Reference: Member portal
 - [Create an employee member portal invitation](https://docs.gusto.com/embedded-payroll/reference/post-v1-employees-employee_id-member_portal_invitations.md): Generates a member portal invitation for the specified employee. If the employee already has an invitation and its token has expired, calling this endpoint regenerates the invitation and overrides…
 - [Get an employee member portal invitation](https://docs.gusto.com/embedded-payroll/reference/get-v1-employees-employee_id-member_portal_invitations.md): Returns the current status of an employee's member portal invitation (`pending`, `sent`, `verified`, `complete`, or `cancelled`) along with an `expired` flag indicating whether the invitation can…
 - [Cancel an employee member portal invitation](https://docs.gusto.com/embedded-payroll/reference/delete-v1-employees-employee_id-member_portal_invitations.md): Cancels the member portal invitation for the specified employee.  Note: this endpoint does not cancel the employee's self-onboarding flow. If you want the company admin to take full control of…
