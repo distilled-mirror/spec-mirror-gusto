@@ -196,6 +196,7 @@
 - [Get all events](https://docs.gusto.com/app-integrations/reference/get-events.md): Fetch all events, going back up to 30 days, that your partner application has the required scopes for. Note that a partner does NOT have to have verified webhook subscriptions in order to utilize…
 
 ## Changelog
+- [September, 2026](https://docs.gusto.com/app-integrations/changelog/september-2026.md)
 - [August, 2026](https://docs.gusto.com/app-integrations/changelog/august-2026.md)
 - [July, 2026](https://docs.gusto.com/app-integrations/changelog/july-2026.md)
 - [June, 2026](https://docs.gusto.com/app-integrations/changelog/june-2026.md)
@@ -205,4 +206,3 @@
 - [May, 2026](https://docs.gusto.com/app-integrations/changelog/may-2026.md)
 - [April, 2026](https://docs.gusto.com/app-integrations/changelog/april-2026.md)
 - [March, 2026](https://docs.gusto.com/app-integrations/changelog/march-2026.md)
-- [February, 2026](https://docs.gusto.com/app-integrations/changelog/february-2026.md)
