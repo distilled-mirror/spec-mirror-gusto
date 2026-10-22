@@ -52,7 +52,6 @@
 ## Guides: Build options
 - [Introduction](https://docs.gusto.com/embedded-payroll/docs/build-options-introduction.md): Learn about the available options for building with Gusto Embedded Payroll
 - [React SDK](https://docs.gusto.com/embedded-payroll/docs/react-sdk.md): A React component library for building payroll—deeply customizable and quick-to-deploy
-- [API Clients](https://docs.gusto.com/embedded-payroll/docs/api-clients.md)
 - [Gusto Flows (pre-built UI)](https://docs.gusto.com/embedded-payroll/docs/gusto-flows-pre-built-ui.md)
   - [Flows quickstart](https://docs.gusto.com/embedded-payroll/docs/flows-quickstart.md)
   - [Customize flows](https://docs.gusto.com/embedded-payroll/docs/customize-flows.md)
