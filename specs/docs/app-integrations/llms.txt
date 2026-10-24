@@ -61,6 +61,9 @@
   - [Get a time off policy](https://docs.gusto.com/app-integrations/reference/get-v1-time_off_policies-time_off_policy_uuid.md): Get a time off policy  scope: `time_off_policies:read`
   - [Get all time off policies for a company](https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_uuid-time_off_policies.md): Get all time off policies for a company  scope: `time_off_policies:read`
   - [Add employees to a time off policy](https://docs.gusto.com/app-integrations/reference/put-v1-time_off_policies-time_off_policy_uuid-add_employees.md): Add employees to a time off policy. Employees are required to have at least one job to be added to a time off policy. Accepts starting balances for non-unlimited policies  scope:…
+- Time Tracking
+  - [Create a batch of time sheets](https://docs.gusto.com/app-integrations/reference/post-companies-company_uuid-time_tracking-time_sheets_batches.md): Create or update up to 500 time sheets for a company in one request.  Set `batch_action` to `create` to create new time sheets, or to `update` to update existing time sheets. One action applies to…
+  - [Get a batch of time sheets](https://docs.gusto.com/app-integrations/reference/get-time_tracking-time_sheets_batches-time_sheets_batch_uuid.md): Fetch a batch of up to 500 time sheets.  When the batch is completed, `results` contains the outcome of each time sheet, matched by `external_id`.  scope: `time_sheet:read`
 - Notifications
   - [Get notifications for company](https://docs.gusto.com/app-integrations/reference/get-company-notifications.md): Returns all notifications relevant for the given company.  scope: `notifications:read`
 

@@ -3,7 +3,7 @@
     "https://docs.gusto.com/app-integrations/llms.txt",
     "https://docs.gusto.com/embedded-payroll/llms.txt"
   ],
-  "count": 453,
+  "count": 455,
   "pages": [
     {
       "page": "https://docs.gusto.com/app-integrations/reference/delete-department",
@@ -114,6 +114,11 @@
       "page": "https://docs.gusto.com/app-integrations/reference/get-time_tracking-time_sheets-time_sheet_uuid",
       "markdown": "https://docs.gusto.com/app-integrations/reference/get-time_tracking-time_sheets-time_sheet_uuid.md",
       "file": "app-integrations/reference/get-time_tracking-time_sheets-time_sheet_uuid.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-time_tracking-time_sheets_batches-time_sheets_batch_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-time_tracking-time_sheets_batches-time_sheets_batch_uuid.md",
+      "file": "app-integrations/reference/get-time_tracking-time_sheets_batches-time_sheets_batch_uuid.md"
     },
     {
       "page": "https://docs.gusto.com/app-integrations/reference/get-v1-benefits",
@@ -429,6 +434,11 @@
       "page": "https://docs.gusto.com/app-integrations/reference/post-companies-company_uuid-time_tracking-time_sheets",
       "markdown": "https://docs.gusto.com/app-integrations/reference/post-companies-company_uuid-time_tracking-time_sheets.md",
       "file": "app-integrations/reference/post-companies-company_uuid-time_tracking-time_sheets.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/post-companies-company_uuid-time_tracking-time_sheets_batches",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/post-companies-company_uuid-time_tracking-time_sheets_batches.md",
+      "file": "app-integrations/reference/post-companies-company_uuid-time_tracking-time_sheets_batches.md"
     },
     {
       "page": "https://docs.gusto.com/app-integrations/reference/post-departments",
