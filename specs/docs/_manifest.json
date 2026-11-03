@@ -3,7 +3,7 @@
     "https://docs.gusto.com/app-integrations/llms.txt",
     "https://docs.gusto.com/embedded-payroll/llms.txt"
   ],
-  "count": 455,
+  "count": 456,
   "pages": [
     {
       "page": "https://docs.gusto.com/app-integrations/reference/delete-department",
@@ -234,6 +234,11 @@
       "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_uuid-time_off_policies",
       "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-company_uuid-time_off_policies.md",
       "file": "app-integrations/reference/get-v1-companies-company_uuid-time_off_policies.md"
+    },
+    {
+      "page": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-payroll-blockers-company_uuid",
+      "markdown": "https://docs.gusto.com/app-integrations/reference/get-v1-companies-payroll-blockers-company_uuid.md",
+      "file": "app-integrations/reference/get-v1-companies-payroll-blockers-company_uuid.md"
     },
     {
       "page": "https://docs.gusto.com/app-integrations/reference/get-v1-company_benefits-company_benefit_id",

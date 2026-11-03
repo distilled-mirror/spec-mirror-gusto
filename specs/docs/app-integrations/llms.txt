@@ -36,6 +36,7 @@
   - [Payroll Events](https://docs.gusto.com/app-integrations/docs/payroll-events.md)
   - [Pay Schedule Events](https://docs.gusto.com/app-integrations/docs/pay-schedule-events.md)
   - [Signatory Events](https://docs.gusto.com/app-integrations/docs/signatory-events.md)
+  - [Time Sheets Batch Events](https://docs.gusto.com/app-integrations/docs/time-sheets-batch-events.md)
 - [Error Categories](https://docs.gusto.com/app-integrations/docs/error-categories.md)
 
 ## Guides: Guides
@@ -56,6 +57,8 @@
   - [Create a System Access Token or Refresh an Access Token](https://docs.gusto.com/app-integrations/reference/oauth-access-token.md): Creates a system access token or refreshes an oauth access token
 - Employee Employments
   - [Get an employee termination](https://docs.gusto.com/app-integrations/reference/get-v1-terminations-employee_id.md): Terminations are created whenever an employee is scheduled to leave the company. The only things required are an effective date (their last day of work) and whether they should receive their wages in…
+- Payrolls
+  - [Get all payroll blockers for a company](https://docs.gusto.com/app-integrations/reference/get-v1-companies-payroll-blockers-company_uuid.md): Returns a list of reasons that prevent the company from running payrolls. See the [Payroll Blockers guide](https://docs.gusto.com/embedded-payroll/docs/payroll-blockers) for a complete list of…
 - Time Off Policies
   - [Calculate accruing time off hours](https://docs.gusto.com/app-integrations/reference/post-v1-payrolls-payroll_id-calculate_accruing_time_off_hours.md): Returns a list of accruing time off for each time off policy associated with the employee.  Factors affecting the accrued hours:  - the time off policy accrual method (whether they get pay per hour…
   - [Get a time off policy](https://docs.gusto.com/app-integrations/reference/get-v1-time_off_policies-time_off_policy_uuid.md): Get a time off policy  scope: `time_off_policies:read`
@@ -225,6 +228,7 @@
   - [Get all events](https://docs.gusto.com/app-integrations/reference/get-events.md): Fetch all events, going back up to 30 days, that your partner application has the required scopes for. Note that a partner does NOT have to have verified webhook subscriptions in order to utilize…
 
 ## Changelog
+- [October, 2026](https://docs.gusto.com/app-integrations/changelog/october-2026.md)
 - [September, 2026](https://docs.gusto.com/app-integrations/changelog/september-2026.md)
 - [August, 2026](https://docs.gusto.com/app-integrations/changelog/august-2026.md)
 - [July, 2026](https://docs.gusto.com/app-integrations/changelog/july-2026.md)
@@ -234,4 +238,3 @@
 - [v2026-06-15](https://docs.gusto.com/app-integrations/changelog/v2026-06-15.md)
 - [May, 2026](https://docs.gusto.com/app-integrations/changelog/may-2026.md)
 - [April, 2026](https://docs.gusto.com/app-integrations/changelog/april-2026.md)
-- [March, 2026](https://docs.gusto.com/app-integrations/changelog/march-2026.md)

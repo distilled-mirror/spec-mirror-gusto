@@ -11438,7 +11438,7 @@
     },
     "/v1/companies/{company_uuid}/payrolls/blockers": {
       "get": {
-        "description": "Returns a list of reasons that prevent the company from running payrolls. See the [Payroll Blockers guide](https://docs.gusto.com/embedded-payroll/docs/payroll-blockers) for a complete list of reasons. The list is empty if there are no payroll blockers.\n\nscope: `payrolls:run`",
+        "description": "Returns a list of reasons that prevent the company from running payrolls. See the [Payroll Blockers guide](https://docs.gusto.com/embedded-payroll/docs/payroll-blockers) for a complete list of reasons. The list is empty if there are no payroll blockers.\n\nscope: `payrolls:read`",
         "operationId": "get-v1-companies-payroll-blockers-company_uuid",
         "parameters": [
           {
@@ -11514,7 +11514,8 @@
           "Payrolls"
         ],
         "x-gusto-integration-type": [
-          "embedded"
+          "embedded",
+          "app-integrations"
         ],
         "x-gusto-rswag": true
       }
