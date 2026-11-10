@@ -122,6 +122,7 @@
   - [Payroll Submission Blockers & Unblock Options](https://docs.gusto.com/embedded-payroll/docs/payroll-submission-blockers-unblock-options.md)
   - [Payroll Processing Request](https://docs.gusto.com/embedded-payroll/docs/payroll-processing-request.md)
 - [Payroll by Workweek](https://docs.gusto.com/embedded-payroll/docs/payroll-by-workweek.md)
+- [Parallelize Payroll Updates](https://docs.gusto.com/embedded-payroll/docs/parallelize-payroll-updates.md): Cut update time on large-roster payrolls by splitting the work across concurrent requests.
 - [Pay Schedules](https://docs.gusto.com/embedded-payroll/docs/pay-schedule-info.md)
   - [Create a pay schedule](https://docs.gusto.com/embedded-payroll/docs/create-a-pay-schedule.md)
   - [Manage Pay Schedules via API](https://docs.gusto.com/embedded-payroll/docs/manage-pay-schedules-api.md)
@@ -565,6 +566,7 @@
 - [Security at Gusto](https://docs.gusto.com/embedded-payroll/page/security-at-gusto.md)
 
 ## Changelog
+- [Added support for parallel payroll updates on large rosters](https://docs.gusto.com/embedded-payroll/changelog/added-support-for-parallel-payroll-updates-on-large-rosters.md)
 - [Added Payroll by Workweek support for earning types, pay schedules, and payrolls](https://docs.gusto.com/embedded-payroll/changelog/added-payroll-by-workweek-support-for-earning-types-pay-schedules-and-payrolls.md)
 - [11-02-26 Partner notification changes](https://docs.gusto.com/embedded-payroll/changelog/11-02-26-partner-notification-changes.md)
 - [Added validation for webhook subscription URLs](https://docs.gusto.com/embedded-payroll/changelog/return-422-for-invalid-or-inaccessible-webhook-subscription-urls.md)
@@ -574,4 +576,3 @@
 - [09-01-26 Partner notification changes](https://docs.gusto.com/embedded-payroll/changelog/09-01-26-partner-notification-changes.md)
 - [Added Tax Payments endpoints](https://docs.gusto.com/embedded-payroll/changelog/added-tax-payments-endpoints.md)
 - [Added work_email read and write for contractors](https://docs.gusto.com/embedded-payroll/changelog/added-work_email-read-and-write-for-contractors.md)
-- [08-03-26 Partner notification changes](https://docs.gusto.com/embedded-payroll/changelog/08-03-26-partner-notification-changes.md)
