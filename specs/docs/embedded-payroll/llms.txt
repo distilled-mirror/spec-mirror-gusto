@@ -142,6 +142,12 @@
 - [401(k) (Guideline)](https://docs.gusto.com/embedded-payroll/docs/401k-guideline.md)
 - [Accounting integrations (Xero and QuickBooks Online)](https://docs.gusto.com/embedded-payroll/docs/testing-accounting-integrations-xero-and-qbo.md)
 
+## API Reference: Gusto API
+- Contractor Payment Groups
+  - [Generate printable contractor payment checks (pdf)](https://docs.gusto.com/embedded-payroll/reference/post-v1-contractor_payment_groups-contractor_payment_group_uuid-generated_documents-printable_contractor_payment_checks.md): This endpoint initiates the generation of contractor checks for the contractor payment group specified by contractor_payment_group_uuid. A generation status and corresponding request_uuid will be…
+- Treasury Tipped Occupation Codes
+  - [Get Treasury Tipped Occupation Codes](https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-treasury_tipped_occupation_codes.md): Returns the full list of 71 U.S. Treasury Tipped Occupation Codes (TTOCs), optionally filtered by category. Reference data; the response is identical across companies and cached for one day…
+
 ## API Reference: Versions
 - [What's new in v2026-06-15](https://docs.gusto.com/embedded-payroll/reference/whats-new-in-v2026-06-15.md)
 

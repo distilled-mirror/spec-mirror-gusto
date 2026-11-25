@@ -186,6 +186,9 @@
       "name": "Time Tracking"
     },
     {
+      "name": "Treasury Tipped Occupation Codes"
+    },
+    {
       "name": "Webhooks"
     },
     {
@@ -14640,6 +14643,98 @@
         "x-gusto-rswag": true
       }
     },
+    "/v1/companies/{company_uuid}/treasury_tipped_occupation_codes": {
+      "get": {
+        "description": "Returns the full list of 71 U.S. Treasury Tipped Occupation Codes (TTOCs),\noptionally filtered by category. Reference data; the response is identical\nacross companies and cached for one day (Cache-Control: max-age=86400).\n\nscope: `jobs:read`",
+        "operationId": "get-companies-company_uuid-treasury_tipped_occupation_codes",
+        "parameters": [
+          {
+            "description": "Determines the date-based API version associated with your API call. If none is provided, your application's [minimum API version](https://docs.gusto.com/embedded-payroll/docs/api-versioning#minimum-api-version) is used.",
+            "in": "header",
+            "name": "X-Gusto-API-Version",
+            "schema": {
+              "default": "2026-06-15",
+              "enum": [
+                "2026-06-15"
+              ],
+              "type": "string"
+            }
+          },
+          {
+            "description": "The UUID of the company",
+            "in": "path",
+            "name": "company_uuid",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "description": "Optional category filter. One of: Beverage & Food Service, Entertainment & Events, Hospitality & Guest Services, Home Services, Personal Services, Personal Appearance & Wellness, Recreation & Instruction, Transportation & Delivery.",
+            "in": "query",
+            "name": "category",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "examples": {
+                  "example": {
+                    "value": {
+                      "$ref": "#/components/schemas/Treasury-Tipped-Occupation-Code-List/x-examples/example"
+                    }
+                  },
+                  "filtered": {
+                    "value": {
+                      "$ref": "#/components/schemas/Treasury-Tipped-Occupation-Code-List/x-examples/filtered"
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Treasury-Tipped-Occupation-Code-List"
+                }
+              }
+            },
+            "description": "Success — filtered by category"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "examples": {
+                  "treasury_tipped_occupation_code_invalid_category": {
+                    "value": {
+                      "$ref": "#/components/schemas/Unprocessable-Entity-Error-Object/x-examples/treasury_tipped_occupation_code_invalid_category"
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Unprocessable-Entity-Error-Object"
+                }
+              }
+            },
+            "description": "Unprocessable Entity\n\nThis may happen when the body of your request contains errors such as `invalid_attribute_value`, or the request fails due to an `invalid_operation`. See the [Errors Categories](https://docs.gusto.com/embedded-payroll/docs/error-categories) guide for more details.\n"
+          }
+        },
+        "security": [
+          {
+            "CompanyAccessAuth": []
+          }
+        ],
+        "summary": "Get Treasury Tipped Occupation Codes",
+        "tags": [
+          "Treasury Tipped Occupation Codes"
+        ],
+        "x-gusto-integration-type": [
+          "embedded"
+        ],
+        "x-gusto-rswag": true
+      }
+    },
     "/v1/companies/{company_uuid}/wire_in_requests": {
       "get": {
         "description": "Fetches all Wire In Requests for a company.\n\nscope: `payrolls:read`",
@@ -16082,6 +16177,111 @@
           }
         ],
         "summary": "Fund a contractor payment group [DEMO]",
+        "tags": [
+          "Contractor Payment Groups"
+        ],
+        "x-gusto-integration-type": [
+          "embedded"
+        ],
+        "x-gusto-rswag": true
+      }
+    },
+    "/v1/contractor_payment_groups/{contractor_payment_group_uuid}/generated_documents/printable_contractor_payment_checks": {
+      "post": {
+        "description": "This endpoint initiates the generation of contractor checks for the contractor payment group specified by contractor_payment_group_uuid. A generation status and corresponding request_uuid will be returned. Use the generated document GET endpoint with document_type: `printable_contractor_payment_checks` and request_uuid to poll the check generation process and retrieve the generated check URL upon completion.\n\nscope: `generated_documents:write`",
+        "operationId": "post-v1-contractor_payment_groups-contractor_payment_group_uuid-generated_documents-printable_contractor_payment_checks",
+        "parameters": [
+          {
+            "description": "Determines the date-based API version associated with your API call. If none is provided, your application's [minimum API version](https://docs.gusto.com/embedded-payroll/docs/api-versioning#minimum-api-version) is used.",
+            "in": "header",
+            "name": "X-Gusto-API-Version",
+            "schema": {
+              "default": "2026-06-15",
+              "enum": [
+                "2026-06-15"
+              ],
+              "type": "string"
+            }
+          },
+          {
+            "description": "The UUID of the contractor payment group",
+            "in": "path",
+            "name": "contractor_payment_group_uuid",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Printable-Contractor-Payment-Checks-Body"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "examples": {
+                  "example": {
+                    "value": {
+                      "$ref": "#/components/schemas/Contractor-Payment-Group-Check/x-examples/example"
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Contractor-Payment-Group-Check"
+                }
+              }
+            },
+            "description": "Example response"
+          },
+          "404": {
+            "content": {
+              "application/json": {
+                "examples": {
+                  "not_found": {
+                    "value": {
+                      "$ref": "#/components/schemas/Not-Found-Error-Object/x-examples/not_found"
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Not-Found-Error-Object"
+                }
+              }
+            },
+            "description": "Not Found\n\nThe requested resource does not exist. Make sure the provided UUID is valid.\n"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "examples": {
+                  "printable_payroll_checks_invalid_printing_format": {
+                    "value": {
+                      "$ref": "#/components/schemas/Unprocessable-Entity-Error-Object/x-examples/printable_payroll_checks_invalid_printing_format"
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Unprocessable-Entity-Error-Object"
+                }
+              }
+            },
+            "description": "Unprocessable Entity\n\nThis may happen when the body of your request contains errors such as `invalid_attribute_value`, or the request fails due to an `invalid_operation`. See the [Errors Categories](https://docs.gusto.com/embedded-payroll/docs/error-categories) guide for more details.\n"
+          }
+        },
+        "security": [
+          {
+            "CompanyAccessAuth": []
+          }
+        ],
+        "summary": "Generate printable contractor payment checks (pdf)",
         "tags": [
           "Contractor Payment Groups"
         ],
@@ -39672,6 +39872,71 @@
         },
         "type": "object"
       },
+      "Contractor-Payment-Group-Check": {
+        "properties": {
+          "contractor_check_number_mapping": {
+            "description": "An array mapping each contractor payment to its check number",
+            "items": {
+              "properties": {
+                "check_number": {
+                  "description": "The check number for the relevant contractor payment. For `top`, this is the check's position in the generated document.",
+                  "type": "number"
+                },
+                "contractor_payment_uuid": {
+                  "description": "The UUID for the contractor payment",
+                  "type": "string"
+                },
+                "contractor_uuid": {
+                  "description": "The UUID for a contractor",
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "contractor_payment_group_uuid": {
+            "description": "A unique identifier of the contractor payment group.",
+            "type": "string"
+          },
+          "printing_format": {
+            "description": "The format the checks will be printed.",
+            "type": "string"
+          },
+          "request_uuid": {
+            "description": "A unique identifier of the Generated Document request",
+            "type": "string"
+          },
+          "starting_check_number": {
+            "description": "The starting check number for the checks being printed.",
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "status": {
+            "description": "Current status of the Generated Document",
+            "type": "string"
+          }
+        },
+        "type": "object",
+        "x-examples": {
+          "example": {
+            "contractor_check_number_mapping": [
+              {
+                "check_number": 10,
+                "contractor_payment_uuid": "f83d0bd8-7e20-43b9-834c-6d514ef6cb48",
+                "contractor_uuid": "e83d0bd8-7e20-43b9-834c-6d514ef6cb47"
+              }
+            ],
+            "contractor_payment_group_uuid": "c83d0bd8-7d20-43b9-834c-6d514ef6cb20",
+            "printing_format": "bottom",
+            "request_uuid": "d83d0ca8-7d41-42a9-834a-7d218ef6cb20",
+            "starting_check_number": 10,
+            "status": "pending"
+          }
+        }
+      },
       "Contractor-Payment-Group-Partner-Disbursements": {
         "description": "Partner disbursements for a contractor payment group",
         "properties": {
@@ -54489,6 +54754,30 @@
           }
         }
       },
+      "Printable-Contractor-Payment-Checks-Body": {
+        "description": "Request body for generating printable contractor payment checks.",
+        "properties": {
+          "printing_format": {
+            "description": "The type of check stock being printed. Check the \"Types of check stock\" section in this [link](https://support.gusto.com/article/999877761000000/Pay-your-team-by-check) for more info on check types",
+            "enum": [
+              "top",
+              "bottom"
+            ],
+            "type": "string"
+          },
+          "starting_check_number": {
+            "description": "The starting check number we will start generating checks from. Use to override the sequence that will be used to generate check numbers. Only allowed when printing_format is bottom.",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "printing_format"
+        ],
+        "type": "object",
+        "x-tags": [
+          "Contractor Payment Groups"
+        ]
+      },
       "Printable-Payroll-Checks-Body": {
         "description": "Request body for generating printable payroll checks.",
         "properties": {
@@ -58574,6 +58863,89 @@
           }
         }
       },
+      "Treasury-Tipped-Occupation-Code": {
+        "properties": {
+          "category": {
+            "description": "Human-readable category name.",
+            "enum": [
+              "Beverage & Food Service",
+              "Entertainment & Events",
+              "Hospitality & Guest Services",
+              "Home Services",
+              "Personal Services",
+              "Personal Appearance & Wellness",
+              "Recreation & Instruction",
+              "Transportation & Delivery"
+            ],
+            "type": "string"
+          },
+          "code": {
+            "description": "The 3-digit TTOC code.",
+            "example": "101",
+            "type": "string"
+          },
+          "description": {
+            "description": "Full U.S. Treasury description of the occupation.",
+            "type": "string"
+          },
+          "title": {
+            "description": "Short title for the occupation.",
+            "example": "Bartenders",
+            "type": "string"
+          }
+        },
+        "type": "object",
+        "x-examples": {
+          "example": {
+            "category": "Beverage & Food Service",
+            "code": "101",
+            "description": "Mix and serve drinks to patrons, directly or through waitstaff.",
+            "title": "Bartenders"
+          },
+          "filtered": {
+            "category": "Beverage & Food Service",
+            "code": "101",
+            "description": "Mix and serve drinks to patrons, directly or through waitstaff.",
+            "title": "Bartenders"
+          }
+        }
+      },
+      "Treasury-Tipped-Occupation-Code-List": {
+        "items": {
+          "$ref": "#/components/schemas/Treasury-Tipped-Occupation-Code"
+        },
+        "type": "array",
+        "x-examples": {
+          "example": [
+            {
+              "category": "Beverage & Food Service",
+              "code": "101",
+              "description": "Mix and serve drinks to patrons, directly or through waitstaff.",
+              "title": "Bartenders"
+            },
+            {
+              "category": "Beverage & Food Service",
+              "code": "102",
+              "description": "Take orders and serve food and beverages to patrons at tables in dining establishment.",
+              "title": "Wait Staff"
+            }
+          ],
+          "filtered": [
+            {
+              "category": "Beverage & Food Service",
+              "code": "101",
+              "description": "Mix and serve drinks to patrons, directly or through waitstaff.",
+              "title": "Bartenders"
+            },
+            {
+              "category": "Beverage & Food Service",
+              "code": "102",
+              "description": "Take orders and serve food and beverages to patrons at tables in dining establishment.",
+              "title": "Wait Staff"
+            }
+          ]
+        }
+      },
       "Unprocessable-Entity-Error-Object": {
         "description": "Unprocessable Entity\n  \nThis may happen when the body of your request contains errors such as `invalid_attribute_value`, or the request fails due to an `invalid_operation`. See the [Errors Categories](https://docs.gusto.com/embedded-payroll/docs/error-categories) guide for more details.\n",
         "properties": {
@@ -58609,6 +58981,15 @@
                 "category": "missing_parameter",
                 "error_key": "last_name",
                 "message": "last_name is required."
+              }
+            ]
+          },
+          "bank_account_create_unfunded_payments": {
+            "errors": [
+              {
+                "category": "invalid_operation",
+                "error_key": "base",
+                "message": "FundingMethod has unfunded payments"
               }
             ]
           },
@@ -58681,12 +59062,21 @@
               }
             ]
           },
+          "company_attachment_document_not_a_file": {
+            "errors": [
+              {
+                "category": "invalid_attribute_value",
+                "error_key": "document",
+                "message": "Parameter `document` must be an uploaded file. Send it in a multipart/form-data request, not a JSON body."
+              }
+            ]
+          },
           "company_attachment_invalid_category": {
             "errors": [
               {
-                "category": "missing_parameter",
-                "error_key": "base",
-                "message": "Attachment category is not supported"
+                "category": "invalid_attribute_value",
+                "error_key": "category",
+                "message": "Category invalid_category is not supported. Supported categories: gep_notice, compliance."
               }
             ]
           },
@@ -58695,7 +59085,12 @@
               {
                 "category": "invalid_attribute_value",
                 "error_key": "file",
-                "message": "file type is not allowed"
+                "message": "Uh oh. That file type is not allowed. Supported file types are .qbb, .qbm, .gif, .jpg, .png, .pdf, .xls, .xlsx, .doc and .docx"
+              },
+              {
+                "category": "invalid_attribute_value",
+                "error_key": "file_file_name",
+                "message": "File file name is invalid"
               }
             ]
           },
@@ -58704,7 +59099,7 @@
               {
                 "category": "missing_parameter",
                 "error_key": "base",
-                "message": "'document' is required"
+                "message": "document is required."
               }
             ]
           },
@@ -58859,7 +59254,7 @@
               {
                 "category": "invalid_operation",
                 "error_key": "base",
-                "message": "Compensation has already been processed on payroll."
+                "message": "Compensation has already been processed on payroll. It is no longer modifiable."
               }
             ]
           },
@@ -59127,12 +59522,48 @@
               }
             ]
           },
+          "earning_type_category_not_modifiable": {
+            "errors": [
+              {
+                "category": "invalid_attribute_value",
+                "error_key": "category",
+                "message": "Category is not modifiable"
+              }
+            ]
+          },
           "earning_type_duplicate_name": {
             "errors": [
               {
                 "category": "invalid_attribute_value",
                 "error_key": "name",
                 "message": "There is already an earning called Bonus"
+              }
+            ]
+          },
+          "earning_type_included_in_overtime_pay_invalid_category": {
+            "errors": [
+              {
+                "category": "invalid_attribute_value",
+                "error_key": "included_in_overtime_pay",
+                "message": "Category must be 'Other' to set included_in_overtime_pay"
+              }
+            ]
+          },
+          "earning_type_included_in_overtime_pay_not_modifiable": {
+            "errors": [
+              {
+                "category": "invalid_attribute_value",
+                "error_key": "included_in_overtime_pay",
+                "message": "Included in overtime pay is not modifiable"
+              }
+            ]
+          },
+          "earning_type_invalid_category": {
+            "errors": [
+              {
+                "category": "invalid_attribute_value",
+                "error_key": "category",
+                "message": "Category is not valid"
               }
             ]
           },
@@ -60201,6 +60632,24 @@
               }
             ]
           },
+          "pay_schedule_pay_days_must_be_paired": {
+            "errors": [
+              {
+                "category": "invalid_attribute_value",
+                "error_key": "second_pay_period_pay_day",
+                "message": "Second pay period pay day must be provided together with the other pay day"
+              }
+            ]
+          },
+          "pay_schedule_workweek_start_day_not_yet_changeable": {
+            "errors": [
+              {
+                "category": "invalid_attribute_value",
+                "error_key": "workweek_start_day",
+                "message": "Workweek start day can only be changed once per pay period. Please wait until 2022-10-05 to change it again."
+              }
+            ]
+          },
           "payment_configs_invalid_fast_payment_limit": {
             "errors": [
               {
@@ -60373,6 +60822,15 @@
                   "entity_type": "Employee",
                   "entity_uuid": "a8e9d2c6-1f3b-4d5a-9c8e-7f0b2d4c6e8a"
                 }
+              }
+            ]
+          },
+          "plaid_bank_account_linking_unavailable": {
+            "errors": [
+              {
+                "category": "invalid_operation",
+                "error_key": "base",
+                "message": "This company's bank account can't be linked through this endpoint. Contact Gusto support to set it up."
               }
             ]
           },
@@ -60621,7 +61079,7 @@
               {
                 "category": "invalid_attribute_value",
                 "error_key": "jurisdiction",
-                "message": "Jurisdiction must be two-letter state codes or US (invalid: XX)"
+                "message": "Jurisdiction must be US or a two-letter US state code (invalid: XX)"
               }
             ]
           },
@@ -60637,18 +61095,18 @@
           "tax_filing_invalid_sort_by": {
             "errors": [
               {
-                "category": "invalid_attribute_value",
+                "category": "invalid_parameter",
                 "error_key": "sort_by",
-                "message": "Sort by must be one of period_start, period_end, due_date, filed_at, optionally suffixed with :asc or :desc"
+                "message": "Unknown sort_by: not_a_field. Must be one of period_start, period_end, due_date, successfully_filed_on, optionally suffixed with :asc or :desc"
               }
             ]
           },
-          "tax_filing_invalid_status": {
+          "tax_filing_inverted_range": {
             "errors": [
               {
                 "category": "invalid_attribute_value",
-                "error_key": "status",
-                "message": "Status must be one of: not_started, in_progress, blocked, accepted, not_required, failed"
+                "error_key": "period_end",
+                "message": "Period end must be greater than or equal to period start"
               }
             ]
           },
@@ -60721,7 +61179,7 @@
                   }
                 ],
                 "metadata": {
-                  "effective_from": null,
+                  "effective_from": "",
                   "key": "misc",
                   "state": "NY"
                 }
@@ -60750,7 +61208,7 @@
                   }
                 ],
                 "metadata": {
-                  "effective_from": null,
+                  "effective_from": "",
                   "key": "misc",
                   "state": "NY"
                 }
@@ -60925,6 +61383,66 @@
                 "category": "invalid_attribute_value",
                 "error_key": "version",
                 "message": "Version 'somefakeversion' does not match the latest version of this object"
+              }
+            ]
+          },
+          "time_sheets_batch_duplicate_external_ids": {
+            "errors": [
+              {
+                "category": "invalid_attribute_value",
+                "error_key": "time_sheets",
+                "message": "Time sheets duplicate external ids: shift-1001."
+              }
+            ]
+          },
+          "time_sheets_batch_idempotency_key_already_used": {
+            "errors": [
+              {
+                "category": "invalid_operation",
+                "error_key": "base",
+                "message": "Batch with idempotency key 2f0c6a4e-8f3b-4d0e-9a51-6f1d2c7b9e10 already exists."
+              }
+            ]
+          },
+          "time_sheets_batch_invalid_time_sheet": {
+            "errors": [
+              {
+                "category": "nested_errors",
+                "error_key": "time_sheets[0]",
+                "errors": [
+                  {
+                    "category": "invalid_attribute_value",
+                    "error_key": "shift_started_at",
+                    "message": "Shift started at is required"
+                  }
+                ]
+              }
+            ]
+          },
+          "time_sheets_batch_overlapping_shifts": {
+            "errors": [
+              {
+                "category": "invalid_attribute_value",
+                "error_key": "time_sheets",
+                "message": "Time sheets shifts overlap for entity 123e4567-e89b-12d3-a456-426614174000 of type Employee."
+              }
+            ]
+          },
+          "time_sheets_batch_too_many_time_sheets": {
+            "errors": [
+              {
+                "category": "invalid_attribute_value",
+                "error_key": "time_sheets",
+                "message": "Time sheets is too big (maximum is 500 elements)."
+              }
+            ]
+          },
+          "treasury_tipped_occupation_code_invalid_category": {
+            "errors": [
+              {
+                "category": "invalid_attribute_value",
+                "error_key": "category",
+                "message": "Category is not included in the list"
               }
             ]
           },

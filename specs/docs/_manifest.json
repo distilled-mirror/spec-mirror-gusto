@@ -3,7 +3,7 @@
     "https://docs.gusto.com/app-integrations/llms.txt",
     "https://docs.gusto.com/embedded-payroll/llms.txt"
   ],
-  "count": 456,
+  "count": 458,
   "pages": [
     {
       "page": "https://docs.gusto.com/app-integrations/reference/delete-department",
@@ -859,6 +859,11 @@
       "page": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-suspensions",
       "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-suspensions.md",
       "file": "embedded-payroll/reference/get-companies-company_uuid-suspensions.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-treasury_tipped_occupation_codes",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-treasury_tipped_occupation_codes.md",
+      "file": "embedded-payroll/reference/get-companies-company_uuid-treasury_tipped_occupation_codes.md"
     },
     {
       "page": "https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-wire_in_request_uuid",
@@ -1774,6 +1779,11 @@
       "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-compensations-compensation_id",
       "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-compensations-compensation_id.md",
       "file": "embedded-payroll/reference/post-v1-compensations-compensation_id.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-contractor_payment_groups-contractor_payment_group_uuid-generated_documents-printable_contractor_payment_checks",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/post-v1-contractor_payment_groups-contractor_payment_group_uuid-generated_documents-printable_contractor_payment_checks.md",
+      "file": "embedded-payroll/reference/post-v1-contractor_payment_groups-contractor_payment_group_uuid-generated_documents-printable_contractor_payment_checks.md"
     },
     {
       "page": "https://docs.gusto.com/embedded-payroll/reference/post-v1-contractors-contractor_uuid-bank_accounts",
