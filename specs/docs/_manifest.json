@@ -3,7 +3,7 @@
     "https://docs.gusto.com/app-integrations/llms.txt",
     "https://docs.gusto.com/embedded-payroll/llms.txt"
   ],
-  "count": 458,
+  "count": 460,
   "pages": [
     {
       "page": "https://docs.gusto.com/app-integrations/reference/delete-department",
@@ -924,6 +924,16 @@
       "page": "https://docs.gusto.com/embedded-payroll/reference/get-reverse-wire-transactions",
       "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-reverse-wire-transactions.md",
       "file": "embedded-payroll/reference/get-reverse-wire-transactions.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-tax-filing",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-tax-filing.md",
+      "file": "embedded-payroll/reference/get-tax-filing.md"
+    },
+    {
+      "page": "https://docs.gusto.com/embedded-payroll/reference/get-tax-filings",
+      "markdown": "https://docs.gusto.com/embedded-payroll/reference/get-tax-filings.md",
+      "file": "embedded-payroll/reference/get-tax-filings.md"
     },
     {
       "page": "https://docs.gusto.com/embedded-payroll/reference/get-tax-payment",

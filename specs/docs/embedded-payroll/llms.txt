@@ -142,12 +142,6 @@
 - [401(k) (Guideline)](https://docs.gusto.com/embedded-payroll/docs/401k-guideline.md)
 - [Accounting integrations (Xero and QuickBooks Online)](https://docs.gusto.com/embedded-payroll/docs/testing-accounting-integrations-xero-and-qbo.md)
 
-## API Reference: Gusto API
-- Contractor Payment Groups
-  - [Generate printable contractor payment checks (pdf)](https://docs.gusto.com/embedded-payroll/reference/post-v1-contractor_payment_groups-contractor_payment_group_uuid-generated_documents-printable_contractor_payment_checks.md): This endpoint initiates the generation of contractor checks for the contractor payment group specified by contractor_payment_group_uuid. A generation status and corresponding request_uuid will be…
-- Treasury Tipped Occupation Codes
-  - [Get Treasury Tipped Occupation Codes](https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-treasury_tipped_occupation_codes.md): Returns the full list of 71 U.S. Treasury Tipped Occupation Codes (TTOCs), optionally filtered by category. Reference data; the response is identical across companies and cached for one day…
-
 ## API Reference: Versions
 - [What's new in v2026-06-15](https://docs.gusto.com/embedded-payroll/reference/whats-new-in-v2026-06-15.md)
 
@@ -223,6 +217,9 @@
 - Industry Selection
   - [Get a company industry selection](https://docs.gusto.com/embedded-payroll/reference/get-v1-company-industry.md): Returns the industry classification for a company, including NAICS code, SIC codes, and industry title.  scope: `companies:read`
   - [Update a company industry selection](https://docs.gusto.com/embedded-payroll/reference/put-v1-company-industry.md): Update the industry classification for a company by passing in a [NAICS code](https://www.naics.com).  Optionally provide an industry title and [SIC codes](https://siccode.com/). If you do not…
+- Tax Filings
+  - [Get all tax filings for a company](https://docs.gusto.com/embedded-payroll/reference/get-tax-filings.md): Fetches all tax filing obligations for a company.  scope: `tax_filings:read`
+  - [Get a tax filing for a company](https://docs.gusto.com/embedded-payroll/reference/get-tax-filing.md): Fetches a single tax filing obligation for a company by UUID.  scope: `tax_filings:read`
 - Tax Requirements
   - [Get tax requirements for a state](https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_uuid-tax_requirements-state.md): Retrieves the detailed tax requirements for a specific state. The response includes requirement sets grouped by category (e.g., registrations, tax rates, deposit schedules), each containing…
   - [Update tax requirements for a state](https://docs.gusto.com/embedded-payroll/reference/put-v1-companies-company_uuid-tax_requirements-state.md): Updates the tax requirement answers for a specific state. Submit answers to the requirement questions returned by [GET…
@@ -346,6 +343,8 @@
   - [Get child support garnishment data](https://docs.gusto.com/embedded-payroll/reference/get-v1-garnishments-child_support.md): Agency data and requirements to be used for creating child support garnishments  scope: `garnishments:read`
 
 ## API Reference: 1099 Contractors
+- Contractor Payment Groups
+  - [Generate printable contractor payment checks (pdf)](https://docs.gusto.com/embedded-payroll/reference/post-v1-contractor_payment_groups-contractor_payment_group_uuid-generated_documents-printable_contractor_payment_checks.md): This endpoint initiates the generation of contractor checks for the contractor payment group specified by contractor_payment_group_uuid. A generation status and corresponding request_uuid will be…
 - Contractor Payment Groups
   - [Create a contractor payment group](https://docs.gusto.com/embedded-payroll/reference/post-v1-companies-company_id-contractor_payment_groups.md): Pay a group of contractors. Information needed depends on the contractor's wage type (hourly vs fixed)  scope: `payrolls:run`
   - [Get contractor payment groups for a company](https://docs.gusto.com/embedded-payroll/reference/get-v1-companies-company_id-contractor_payment_groups.md): Returns a list of minimal contractor payment groups within a given time period, including totals but not associated contractor payments.  scope: `payrolls:read`
@@ -566,12 +565,17 @@
   - [Get a contractor member portal invitation](https://docs.gusto.com/embedded-payroll/reference/get-v1-contractors-contractor_uuid-member_portal_invitations.md): Returns the current status of a contractor's member portal invitation (`pending`, `sent`, `verified`, `complete`, or `cancelled`) along with an `expired` flag indicating whether the invitation can…
   - [Cancel a contractor member portal invitation](https://docs.gusto.com/embedded-payroll/reference/delete-v1-contractors-contractor_uuid-member_portal_invitations.md): Cancels the member portal invitation for the specified contractor.  Note: this endpoint does not cancel the contractor's self-onboarding flow. If you want the company admin to take full control of…
 
+## API Reference: Reference Data
+- Treasury Tipped Occupation Codes
+  - [Get Treasury Tipped Occupation Codes](https://docs.gusto.com/embedded-payroll/reference/get-companies-company_uuid-treasury_tipped_occupation_codes.md): Returns the full list of 71 U.S. Treasury Tipped Occupation Codes (TTOCs), optionally filtered by category. Reference data; the response is identical across companies and cached for one day…
+
 ## Pages
 - [API Policy](https://docs.gusto.com/embedded-payroll/page/api-policy.md)
 - [API Status](https://docs.gusto.com/embedded-payroll/page/api-status.md)
 - [Security at Gusto](https://docs.gusto.com/embedded-payroll/page/security-at-gusto.md)
 
 ## Changelog
+- [Added Tax Filings endpoints](https://docs.gusto.com/embedded-payroll/changelog/added-tax-filings-endpoints.md)
 - [Added support for parallel payroll updates on large rosters](https://docs.gusto.com/embedded-payroll/changelog/added-support-for-parallel-payroll-updates-on-large-rosters.md)
 - [Added Payroll by Workweek support for earning types, pay schedules, and payrolls](https://docs.gusto.com/embedded-payroll/changelog/added-payroll-by-workweek-support-for-earning-types-pay-schedules-and-payrolls.md)
 - [11-02-26 Partner notification changes](https://docs.gusto.com/embedded-payroll/changelog/11-02-26-partner-notification-changes.md)
@@ -581,4 +585,3 @@
 - [Filter tax payments by payroll](https://docs.gusto.com/embedded-payroll/changelog/filter-tax-payments-by-payroll.md)
 - [09-01-26 Partner notification changes](https://docs.gusto.com/embedded-payroll/changelog/09-01-26-partner-notification-changes.md)
 - [Added Tax Payments endpoints](https://docs.gusto.com/embedded-payroll/changelog/added-tax-payments-endpoints.md)
-- [Added work_email read and write for contractors](https://docs.gusto.com/embedded-payroll/changelog/added-work_email-read-and-write-for-contractors.md)
